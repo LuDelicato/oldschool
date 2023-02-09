@@ -1,11 +1,15 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Header } from '../common/Header';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Home } from '../pages/Home';
+import { NavBar } from '../common/NavBar';
 
 export const Pages = () => {
   return (
-    <Router>
-      <Header />
-    </Router>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<NavBar />} />
+        <Route path='/' element={Home} />
+      </Routes>
+    </BrowserRouter>
   );
 };

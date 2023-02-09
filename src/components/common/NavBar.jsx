@@ -6,7 +6,7 @@ import { RiUser3Line } from 'react-icons/ri';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineHeart } from 'react-icons/ai';
 import { navbar } from '../data/data';
 
-export const Header = () => {
+export const NavBar = () => {
   const [mobile, setMobile] = useState(false);
 
   return (
@@ -19,7 +19,9 @@ export const Header = () => {
             </button>
           </div>
           <div className='left'>
-            <img src='/images/logo.png' alt='' />
+            <a href='/' target={'_self'} rel='noreferrer'>
+              <img src='/images/logo.png' alt='' />
+            </a>
           </div>
           <div className='center'>
             <ul className={mobile ? 'mobile-nav' : 'menu'}>
@@ -40,7 +42,7 @@ export const Header = () => {
             <RiUser3Line className='userIcon heIcon' />
             <AiOutlineHeart className='userIcon heIcon' />
           </div>
-          <div className='right-user'>
+          <div className='right_user'>
             <button className='button'>
               <BsBagCheck className='shop heIcon' />
               Carrinho (0)
