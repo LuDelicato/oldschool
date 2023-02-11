@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BsBagCheck } from 'react-icons/bs';
 import { VscColorMode } from 'react-icons/vsc';
@@ -8,8 +8,23 @@ import { navbar } from '../data/data';
 export const NavBar = () => {
   const [mobile, setMobile] = useState(false);
 
+  const [headerClass, setHeaderClass] = useState('');
+
+  useEffect(() => {
+    function handleScroll() {
+      if (window.scrollY > 100) {
+        setHeaderClass('active');
+      } else {
+        setHeaderClass('');
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <header className='header'>
+    <header className={`header ${headerClass}`}>
       <div className='container'>
         <nav>
           <div className='toggle'>

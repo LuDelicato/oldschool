@@ -31,6 +31,18 @@ header {
   margin: inherit;
   box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
 }
+
+header.active {
+  content: '';
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100%;
+  box-shadow: 0 0 4px 0 rgb(115 115 115 / 20%);
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.8);
+}
+
 header .container,
 header nav,
 header .center ul,
