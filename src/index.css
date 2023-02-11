@@ -245,3 +245,45 @@ body::after {
   background-size: contain;
   z-index: -1;
 }
+
+.itemCards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  grid-gap: 30px;
+}
+
+.itemCards .card {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 100px;
+}
+
+.itemCards .card img {
+  width: 60px;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .itemCards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .itemCards .card {
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+  .itemCards .card img {
+    margin-right: 0;
+  }
+
+  .itemCards .card p {
+    display: none;
+  }
+}
