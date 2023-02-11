@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 h1,
 h2,
 h3,
@@ -11,4 +7,241 @@ h4,
 h5,
 h6 {
   font-weight: 500;
+}
+
+input,
+button,
+li {
+  background: none;
+  outline: none;
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+}
+
+header {
+  padding: 15px 30px;
+  margin: inherit;
+  box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
+}
+header .container,
+header nav,
+header .center ul,
+header .right,
+header .right_search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: center;
+}
+header .toggle {
+  display: none;
+}
+header .left {
+  padding: 10px 0 0 0;
+  margin: none;
+}
+header .left img {
+  width: 120px;
+}
+header .heIcon {
+  font-size: 20px;
+  color: #0a2748;
+}
+header .center ul {
+  padding: none;
+  margin: 0 0 0 45px;
+}
+header .center ul li {
+  padding: none;
+  margin: 0 0 0 30px;
+}
+header .center ul li a {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+header .right_search {
+  width: none;
+  height: 45px;
+  background: #fff;
+  color: none;
+  border-radius: 50px;
+  padding: 15px;
+  box-shadow: -5px 9px 20px 0px rgba(23, 45, 89, 0.03);
+}
+header .right_search input {
+  width: 80%;
+  height: 100%;
+  background: none;
+  color: none;
+  border-radius: none;
+  padding: 15px;
+}
+header .right_user .heIcon {
+  padding: none;
+  margin: 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+  header .toggle {
+    display: block;
+    margin-right: 230%;
+  }
+  header .toggle .close {
+    content: '';
+    position: absolute;
+    top: 20px;
+    bottom: none;
+    left: 40%;
+    right: none;
+    width: 50px;
+    height: 50px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: #9900ff;
+    border-radius: 50%;
+    padding: 8px;
+    z-index: 999999;
+  }
+  header .center ul {
+    display: none;
+  }
+  header .center .mobile-nav {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: none;
+    left: -50px;
+    right: none;
+    width: none;
+    height: none;
+    width: 400px;
+    height: 100vh;
+    background: #f6f7f8;
+    color: #fff;
+    border-radius: 0;
+    padding: 0;
+    padding: 100px 0;
+    z-index: 99999;
+  }
+  header .center .mobile-nav li {
+    margin-top: 25px;
+  }
+  header .center .mobile-nav li a {
+    color: #312620;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  header .right_user,
+  header .right_search {
+    display: none;
+  }
+}
+
+a {
+  background: none;
+  outline: none;
+  list-style-type: none;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  color: #131212;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #9900ff;
+  transition: 0.5s ease-in-out;
+}
+
+.hero p {
+  margin: 0px 0 50px 0;
+  color: #505050;
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+.hero {
+  width: 60%;
+  height: auto;
+  background: 0;
+  border-radius: 0;
+  padding: 10% 0 0 0;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.hero h1 span {
+  color: #9900ff;
+  font-size: 40px;
+}
+
+.hero .search {
+  width: 100%;
+  background: #fff;
+  color: #131212;
+  border-radius: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -5px 9px 20px 0px rgb(23, 45, 89 / 3%);
+}
+
+.hero .search hr {
+  outline: none;
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.2);
+  height: 20px;
+  width: 0.1rem;
+  margin: 5px;
+}
+
+.hero .search input {
+  width: 80%;
+  padding: 10px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.hero .search .heIcon {
+  font-size: 30px;
+}
+
+.search {
+  padding: 0;
+}
+
+body::after {
+  content: '';
+  position: absolute;
+  top: 84px;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../public/images/bg_test2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
 }

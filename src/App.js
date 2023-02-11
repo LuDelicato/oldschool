@@ -1,15 +1,10 @@
 import './reset.css';
+import './index.css';
 import './App.css';
 import { Pages } from './components/pages/Pages';
-import { Home } from './components/pages/Home';
 
 function App() {
-  return (
-    <div className='App'>
-      <Pages />
-      <Home />
-    </div>
-  );
+  return <Pages />;
 }
 
 export default App;

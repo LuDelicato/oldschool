@@ -1,15 +1,18 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home } from '../pages/Home';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { NavBar } from '../common/NavBar';
+import { Hero } from './Hero';
 
-export const Pages = () => {
+import Home from './Home';
+
+export function Pages() {
   return (
     <BrowserRouter>
+      <NavBar />
+      <Hero />
       <Routes>
-        <Route path='/' element={<NavBar />} />
-        <Route path='/' element={Home} />
+        <Route exact path='/' component={Home} />
       </Routes>
     </BrowserRouter>
   );
-};
+}
