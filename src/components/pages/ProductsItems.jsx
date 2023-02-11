@@ -2,11 +2,11 @@ import React from 'react';
 import { FiShoppingBag, FiSearch } from 'react-icons/fi';
 import { AiOutlineHeart } from 'react-icons/ai';
 
-export const ProductItems = ({ cartItems }) => {
+export const ProductItems = ({ items }) => {
   return (
     <>
       <div className='product_items'>
-        {cartItems.map((items) => (
+        {items.map((items) => (
           <div className='box' key={items.id}>
             <div className='img'>
               <img src={items.cover} alt='' />
