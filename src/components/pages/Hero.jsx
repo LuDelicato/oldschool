@@ -1,16 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BiSearch } from 'react-icons/bi';
 
 export const Hero = () => {
-  const [value, setValue] = useState('');
-  const onChange = (e) => {
-    setValue(e.target.value);
-  };
-
-  const onSearch = (key) => {
-    setValue(key);
-  };
-
   return (
     <section className='hero'>
       <div className='container'>
@@ -27,8 +18,8 @@ export const Hero = () => {
         <div className='search'>
           <span>Todas as Categorias</span>
           <hr />
-          <input type='text' placeholder='Pesquisa de Produtos...' onChange={onChange} value={value} />
-          <button onClick={() => onSearch(value)}>
+          <input type='text' placeholder='Pesquisa de Produtos...' />
+          <button>
             <BiSearch className='searchIcon heIcon' />
           </button>
         </div>
