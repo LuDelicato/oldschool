@@ -9,6 +9,10 @@ h6 {
   font-weight: 500;
 }
 
+section {
+  padding: 15px 30px;
+}
+
 input,
 button,
 li {
@@ -286,4 +290,14 @@ body::after {
   .itemCards .card p {
     display: none;
   }
+}
+
+.product_items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.product_items img {
+  border-radius: 10px;
 }

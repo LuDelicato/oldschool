@@ -169,7 +169,7 @@ export const products = [
 
   {
     id: 12,
-    cover: '/images/hero/shops-12.png',
+    cover: '/images/shop/shops-12.png',
     title: "Nero D'inferno",
     author: 'Nero',
     price: 8.5,
