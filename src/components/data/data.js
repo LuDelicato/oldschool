@@ -331,7 +331,7 @@ export const products = [
 
   {
     id: 28,
-    cover: '/images/shop/caps/tranversal.png',
+    cover: '/images/shop/caps/transversal.png',
     title: 'Transversal',
     author: 'Montana',
     price: 0.35,

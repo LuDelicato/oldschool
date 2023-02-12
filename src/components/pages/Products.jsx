@@ -4,7 +4,7 @@ import { products } from '../data/data';
 import { ProductItems } from './ProductsItems';
 
 function Products() {
-  const [items, setItems] = useState(products);
+  const [items] = useState(products);
   return (
     <section className='product'>
       <div className='container'>

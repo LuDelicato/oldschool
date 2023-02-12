@@ -286,4 +286,5 @@ body::after {
 
 .product_items img {
   border-radius: 10px;
+  width: auto;
 }
