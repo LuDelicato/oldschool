@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { BsBagCheck } from 'react-icons/bs';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineHeart } from 'react-icons/ai';
 import { navbar } from '../data/data';
@@ -43,7 +43,9 @@ export const NavBar = () => {
             <ul className={mobile ? 'mobile-nav' : 'menu'}>
               {navbar.map((nav) => (
                 <li key={nav.id}>
-                  <Link to={nav.path}>{nav.text}</Link>
+                  <NavLink to={nav.path} className={({ isActive }) => (isActive ? 'active' : '')}>
+                    {nav.text}
+                  </NavLink>
                 </li>
               ))}
             </ul>

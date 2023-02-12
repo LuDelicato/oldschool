@@ -61,3 +61,7 @@ body.dark-mode::after {
 .dark-mode .itemCards .card {
   background-color: #5c5c5c;
 }
+
+.dark-mode .active {
+  color: #c01616;
+}

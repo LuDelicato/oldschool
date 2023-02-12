@@ -43,6 +43,10 @@ header.active {
   background: rgba(255, 255, 255, 0.8);
 }
 
+.active {
+  color: #9900ff;
+}
+
 header .container,
 header nav,
 header .center ul,
@@ -134,6 +138,13 @@ header .right_user .heIcon {
 }
 
 a {
+  text-decoration: none;
+  background: linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
+    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
   background: none;
   outline: none;
   list-style-type: none;
