@@ -51,53 +51,33 @@ header .right_search {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: center;
 }
 header .toggle {
   display: none;
 }
 header .left {
   padding: 10px 0 0 0;
-  margin: none;
 }
 header .left img {
   width: 120px;
 }
 header .heIcon {
   font-size: 20px;
-  color: #0a2748;
+  color: #131313;
 }
+
 header .center ul {
-  padding: none;
   margin: 0 0 0 45px;
 }
 header .center ul li {
-  padding: none;
   margin: 0 0 0 30px;
 }
 header .center ul li a {
   text-transform: uppercase;
   font-size: 15px;
 }
-header .right_search {
-  width: none;
-  height: 45px;
-  background: #fff;
-  color: none;
-  border-radius: 50px;
-  padding: 15px;
-  box-shadow: -5px 9px 20px 0px rgba(23, 45, 89, 0.03);
-}
-header .right_search input {
-  width: 80%;
-  height: 100%;
-  background: none;
-  color: none;
-  border-radius: none;
-  padding: 15px;
-}
+
 header .right_user .heIcon {
-  padding: none;
   margin: 0 15px;
 }
 
@@ -110,9 +90,7 @@ header .right_user .heIcon {
     content: '';
     position: absolute;
     top: 20px;
-    bottom: none;
     left: 40%;
-    right: none;
     width: 50px;
     height: 50px;
     width: 40px;
@@ -131,11 +109,7 @@ header .right_user .heIcon {
     content: '';
     position: absolute;
     top: 0;
-    bottom: none;
     left: -50px;
-    right: none;
-    width: none;
-    height: none;
     width: 400px;
     height: 100vh;
     background: #f6f7f8;
@@ -149,7 +123,7 @@ header .right_user .heIcon {
     margin-top: 25px;
   }
   header .center .mobile-nav li a {
-    color: #312620;
+    color: #202020;
     margin-bottom: 15px;
     font-size: 30px;
   }

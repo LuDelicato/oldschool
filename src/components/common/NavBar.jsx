@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BsBagCheck } from 'react-icons/bs';
-import { VscColorMode } from 'react-icons/vsc';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineHeart } from 'react-icons/ai';
 import { navbar } from '../data/data';
+import DarkModeBtn from './DarkModeBtn';
 
 export const NavBar = () => {
   const [mobile, setMobile] = useState(false);
@@ -22,6 +22,8 @@ export const NavBar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  function handleDarkModeToggle() {}
 
   return (
     <header className={`header ${headerClass}`}>
@@ -49,9 +51,7 @@ export const NavBar = () => {
         </nav>
         <div className='right'>
           <div className='right_user'>
-            <button className='button' type='button'>
-              <VscColorMode className='userIcon heIcon' />
-            </button>
+            <DarkModeBtn onToggle={handleDarkModeToggle} />
             <AiOutlineHeart className='userIcon heIcon' />
           </div>
           <div className='right_user'>
