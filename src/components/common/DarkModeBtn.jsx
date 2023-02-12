@@ -16,6 +16,12 @@ function DarkModeBtn(props) {
 
   function toggleDarkMode() {
     setDarkMode(!darkMode);
+    const image = document.getElementById('logo');
+    if (darkMode) {
+      image.src = '/images/oldschool_white.png';
+    } else {
+      image.src = '/images/oldschool_black.png';
+    }
   }
 
   return (

@@ -5,10 +5,10 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineHeart } from 'react-icons/ai';
 import { navbar } from '../data/data';
 import DarkModeBtn from './DarkModeBtn';
 
-export const NavBar = () => {
+export const NavBar = ({ darkMode }) => {
   const [mobile, setMobile] = useState(false);
-
   const [headerClass, setHeaderClass] = useState('');
+  const [logoSrc, setLogoSrc] = useState('oldschool_white.png');
 
   useEffect(() => {
     function handleScroll() {
@@ -36,7 +36,7 @@ export const NavBar = () => {
           </div>
           <div className='left'>
             <a href='/' target={'_self'} rel='noreferrer'>
-              <img src='/images/logo.png' alt='' />
+              <img id='logo' src={darkMode ? '/images/oldschool_black.png' : '/images/oldschool_white.png'} alt='' />
             </a>
           </div>
           <div className='center'>
