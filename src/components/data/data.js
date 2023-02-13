@@ -1,11 +1,5 @@
 export const navbar = [
   {
-    id: '1',
-    text: 'home',
-    path: '/',
-  },
-
-  {
     id: '2',
     text: 'loja',
     path: '/loja',

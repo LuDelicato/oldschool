@@ -65,3 +65,20 @@ body.dark-mode::after {
 .dark-mode .active {
   color: #c01616;
 }
+
+.dark-mode .product {
+  background-image: url(/public/images/black-spray-paint-black.png);
+}
+
+.dark-mode .container .heading h2 {
+  color: #f6f7f8;
+}
+
+.dark-mode .container .heading p {
+  color: #f6f7f8;
+}
+
+.dark-mode .itemCards .card:hover {
+  background-image: url('/public/images/black-spray-paint-black.png');
+  background-repeat: no-repeat;
+}

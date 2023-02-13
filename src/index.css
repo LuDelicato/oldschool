@@ -254,6 +254,7 @@ body::after {
   padding: 20px;
   cursor: pointer;
   grid-gap: 30px;
+  height: 250px;
 }
 
 .itemCards .card {
@@ -261,8 +262,13 @@ body::after {
   align-items: center;
   justify-content: flex-start;
   border-radius: 10px;
-  background-color: #fff;
+  background: rgba(219, 218, 218, 0.226);
   height: 100px;
+}
+
+.itemCards .card:hover {
+  background-image: url('../public/images/black-spray-paint.jpg');
+  background-repeat: no-repeat;
 }
 
 .itemCards .card img {
@@ -292,10 +298,105 @@ body::after {
 .product_items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  grid-gap: 10px;
+}
+.box {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.product_items img {
+.img {
+  position: relative;
+  display: block;
+  background: rgba(219, 218, 218, 0.226);
   border-radius: 10px;
-  width: auto;
+  width: calc(100% - 40px);
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
+
+.product_items button {
+  background: #fff;
+  border: none;
+  color: #000;
+  font-size: 1.5rem;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.overlay button {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.2s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.overlay:hover button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.img:hover .overlay {
+  opacity: 1;
+}
+
+.img:hover button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.img:hover {
+  opacity: 0.8;
+  background-image: url(/public/images/bg_test.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product {
+  background-image: url(/public/images/black-spray-paint.jpg);
+}
+
+.product .container .heading h2,
+.heading p {
+  color: #000;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.product .container .heading p {
+  font-style: italic;
+  font-size: 1rem;
+  padding-bottom: 30px;
+  margin-top: -10px;
+}
+
+.right_user button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.right_user button:hover {
+  transform: scale(1.1);
 }
