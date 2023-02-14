@@ -23,9 +23,9 @@ export const ProductItems = ({ items }) => {
               </div>
             </div>
             <div className='details'>
-              <h3>{items.title}</h3>
-              <p>{items.author}</p>
-              <h4>€{items.price}</h4>
+              <h3>Nome: {items.title}</h3>
+              <p>Marca: {items.author}</p>
+              <h4>Preço: €{items.price}</h4>
             </div>
           </div>
         ))}
