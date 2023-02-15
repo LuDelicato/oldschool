@@ -1,6 +1,7 @@
-export const colors94 = [
+export const colors = [
   {
     colorId: 1,
+    brandID: 1,
     code: 'RV-189',
     name: 'Ipanema Yellow',
     cmyk: '0, 0, 18, 1',
@@ -10,6 +11,7 @@ export const colors94 = [
 
   {
     colorId: 2,
+    brandID: 1,
     code: 'RV-20',
     name: 'Party Yellow',
     cmyk: '0, 2, 69, 0',
@@ -19,6 +21,7 @@ export const colors94 = [
 
   {
     colorId: 3,
+    brandID: 1,
     code: 'RV-109',
     name: 'Canarias Yellow',
     cmyk: '0, 1, 100, 0',
@@ -28,6 +31,7 @@ export const colors94 = [
 
   {
     colorId: 4,
+    brandID: 1,
     code: 'RV-110',
     name: 'Yosemite Yellow',
     cmyk: '0, 2, 100, 20',
@@ -37,6 +41,7 @@ export const colors94 = [
 
   {
     colorId: 5,
+    brandID: 1,
     code: 'RV-111',
     name: 'Babel Green',
     cmyk: '0,3,10,41',
@@ -46,6 +51,7 @@ export const colors94 = [
 
   {
     colorId: 6,
+    brandID: 1,
     code: 'RV-112',
     name: 'Mission Green',
     cmyk: '0, 12, 100, 49',
@@ -55,6 +61,7 @@ export const colors94 = [
 
   {
     colorId: 7,
+    brandID: 1,
     code: 'RV-113',
     name: 'Dragon Green',
     cmyk: '0,3,10,64',
@@ -64,6 +71,7 @@ export const colors94 = [
 
   {
     colorId: 8,
+    brandID: 1,
     code: 'RV-114',
     name: 'Maya Green',
     cmyk: '0,0,71,94',
@@ -73,6 +81,7 @@ export const colors94 = [
 
   {
     colorId: 9,
+    brandID: 1,
     code: 'RV-192',
     name: 'Sundance',
     cmyk: '0,10,94,0',
@@ -82,6 +91,7 @@ export const colors94 = [
 
   {
     colorId: 10,
+    brandID: 1,
     code: 'RV-102',
     name: 'Dalai Orange',
     cmyk: '0,10,30,0',
@@ -91,6 +101,7 @@ export const colors94 = [
 
   {
     colorId: 11,
+    brandID: 1,
     code: 'RV-103',
     name: 'Plural Orange',
     cmyk: '0,23,47,0',
@@ -100,6 +111,7 @@ export const colors94 = [
 
   {
     colorId: 12,
+    brandID: 1,
     code: 'RV-50',
     name: 'Solar Orange',
     cmyk: '0,35,69,0',
@@ -109,6 +121,7 @@ export const colors94 = [
 
   {
     colorId: 13,
+    brandID: 1,
     code: 'RV-105',
     name: 'Tangerine',
     cmyk: '0,35,70,0',
@@ -118,6 +131,7 @@ export const colors94 = [
 
   {
     colorId: 14,
+    brandID: 1,
     code: 'RV-106',
     name: 'Lava Orange',
     cmyk: '0, 48, 100, 0',
@@ -127,6 +141,7 @@ export const colors94 = [
 
   {
     colorId: 15,
+    brandID: 1,
     code: 'RV-2004',
     name: 'Kalani Orange',
     cmyk: '0,49,66,0',
@@ -136,6 +151,7 @@ export const colors94 = [
 
   {
     colorId: 16,
+    brandID: 1,
     code: 'RV-107',
     name: 'Mars Orange',
     cmyk: '0, 68, 100, 0',
@@ -145,6 +161,7 @@ export const colors94 = [
 
   {
     colorId: 17,
+    brandID: 1,
     code: 'RV-108',
     name: 'Phoenix Orange',
     cmyk: '0, 75, 100, 28',
@@ -154,6 +171,7 @@ export const colors94 = [
 
   {
     colorId: 18,
+    brandID: 1,
     code: 'RV-190',
     name: 'Malta White',
     cmyk: '0,12,28,0',
@@ -163,6 +181,7 @@ export const colors94 = [
 
   {
     colorId: 19,
+    brandID: 1,
     code: 'RV-1013',
     name: 'Bone White',
     cmyk: '0,2,15,0',
@@ -172,6 +191,7 @@ export const colors94 = [
 
   {
     colorId: 20,
+    brandID: 1,
     code: 'RV-135',
     name: 'Safari Brown',
     cmyk: '3,3,35,0',
@@ -181,6 +201,7 @@ export const colors94 = [
 
   {
     colorId: 21,
+    brandID: 1,
     code: 'RV-136',
     name: 'Inca Brown',
     cmyk: '0,20,50,5',
@@ -190,6 +211,7 @@ export const colors94 = [
 
   {
     colorId: 22,
+    brandID: 1,
     code: 'RV-137',
     name: 'Kraft Brown',
     cmyk: '20, 32, 58, 0',
@@ -199,6 +221,7 @@ export const colors94 = [
 
   {
     colorId: 23,
+    brandID: 1,
     code: 'RV-139',
     name: 'Sequoia Brown',
     cmyk: '30, 56, 10, 37',
@@ -208,6 +231,7 @@ export const colors94 = [
 
   {
     colorId: 24,
+    brandID: 1,
     code: 'RV-138',
     name: 'Marrakech',
     cmyk: '30, 30, 60,10',
@@ -217,6 +241,7 @@ export const colors94 = [
 
   {
     colorId: 25,
+    brandID: 1,
     code: 'RV-140',
     name: 'Mole Brown',
     cmyk: '0, 26, 100, 69',
@@ -226,6 +251,7 @@ export const colors94 = [
 
   {
     colorId: 26,
+    brandID: 1,
     code: 'RV-141',
     name: 'Gondola Brown',
     cmyk: '0, 60, 100, 79',
@@ -235,6 +261,7 @@ export const colors94 = [
 
   {
     colorId: 27,
+    brandID: 1,
     code: 'RV-191',
     name: 'Jaima Brown',
     cmyk: '0,8,23,2',
@@ -244,6 +271,7 @@ export const colors94 = [
 
   {
     colorId: 28,
+    brandID: 1,
     code: 'RV-94',
     name: 'Dingo Brown',
     cmyk: '0,8,23,2',
@@ -253,6 +281,7 @@ export const colors94 = [
 
   {
     colorId: 29,
+    brandID: 1,
     code: 'RV-95',
     name: 'Tana Brown',
     cmyk: '0, 21, 48, 10',
@@ -262,6 +291,7 @@ export const colors94 = [
 
   {
     colorId: 30,
+    brandID: 1,
     code: 'RV-96',
     name: 'Montserrat',
     cmyk: '0, 31, 62, 18',
@@ -271,6 +301,7 @@ export const colors94 = [
 
   {
     colorId: 31,
+    brandID: 1,
     code: 'RV-97',
     name: 'Chiapas Brown',
     cmyk: '0, 38, 78, 29',
@@ -280,6 +311,7 @@ export const colors94 = [
 
   {
     colorId: 32,
+    brandID: 1,
     code: 'RV-98',
     name: 'Bean Brown',
     cmyk: '0,52,100,35',
@@ -289,6 +321,7 @@ export const colors94 = [
 
   {
     colorId: 33,
+    brandID: 1,
     code: 'RV-100',
     name: 'Coffee Brown',
     cmyk: '0, 60, 100, 79',
@@ -298,6 +331,7 @@ export const colors94 = [
 
   {
     colorId: 34,
+    brandID: 1,
     code: 'RV-35',
     name: 'Chocolate Brown',
     cmyk: '75, 80, 80, 45',
@@ -307,6 +341,7 @@ export const colors94 = [
 
   {
     colorId: 35,
+    brandID: 1,
     code: 'RV-101',
     name: 'Ebony Brown',
     cmyk: '0, 73, 100, 80',
@@ -316,6 +351,7 @@ export const colors94 = [
 
   {
     colorId: 36,
+    brandID: 1,
     code: 'RV-193',
     name: 'Chewing Gum',
     cmyk: '0,28,7,0',
@@ -325,6 +361,7 @@ export const colors94 = [
 
   {
     colorId: 37,
+    brandID: 1,
     code: 'RV-115',
     name: 'Tutti Frutti',
     cmyk: '0, 45, 10, 0',
@@ -334,6 +371,7 @@ export const colors94 = [
 
   {
     colorId: 38,
+    brandID: 1,
     code: 'RV-3017',
     name: 'Fever Red',
     cmyk: '0, 59, 56, 0',
@@ -343,6 +381,7 @@ export const colors94 = [
 
   {
     colorId: 39,
+    brandID: 1,
     code: 'RV-116',
     name: 'Blood Red',
     cmyk: '0, 79, 100, 0',
@@ -352,6 +391,7 @@ export const colors94 = [
 
   {
     colorId: 40,
+    brandID: 1,
     code: 'RV-3001',
     name: 'Vivid Red',
     cmyk: '0, 100, 99, 4',
@@ -361,6 +401,7 @@ export const colors94 = [
 
   {
     colorId: 41,
+    brandID: 1,
     code: 'RV-47',
     name: 'Clandestine Red',
     cmyk: '0, 100, 65, 28',
@@ -370,6 +411,7 @@ export const colors94 = [
 
   {
     colorId: 42,
+    brandID: 1,
     code: 'RV-3004',
     name: 'Bordeaux Red',
     cmyk: '0, 90, 100, 51',
@@ -379,6 +421,7 @@ export const colors94 = [
 
   {
     colorId: 43,
+    brandID: 1,
     code: 'RV-3007',
     name: 'Cherokee Red',
     cmyk: '0, 70, 100, 78',
@@ -388,6 +431,7 @@ export const colors94 = [
 
   {
     colorId: 44,
+    brandID: 1,
     code: 'RV-77',
     name: 'Night Red',
     cmyk: '0, 73, 100, 80',
@@ -397,6 +441,7 @@ export const colors94 = [
 
   {
     colorId: 45,
+    brandID: 1,
     code: 'RV-194',
     name: 'Supernova Pink',
     cmyk: '0,9,6,0',
@@ -406,6 +451,7 @@ export const colors94 = [
 
   {
     colorId: 46,
+    brandID: 1,
     code: 'RV-164',
     name: 'Tokyo Pink',
     cmyk: '0,17,11,0',
@@ -415,6 +461,7 @@ export const colors94 = [
 
   {
     colorId: 47,
+    brandID: 1,
     code: 'RV-165',
     name: 'Orchid Pink',
     cmyk: '0,58,3,0',
@@ -424,6 +471,7 @@ export const colors94 = [
 
   {
     colorId: 48,
+    brandID: 1,
     code: 'RV-4003',
     name: 'Erika',
     cmyk: '0,72,11,0',
@@ -433,6 +481,7 @@ export const colors94 = [
 
   {
     colorId: 49,
+    brandID: 1,
     code: 'RV-4010',
     name: 'Magenta',
     cmyk: '0,99,0,0',
@@ -442,6 +491,7 @@ export const colors94 = [
 
   {
     colorId: 50,
+    brandID: 1,
     code: 'RV-166',
     name: 'Açai Red',
     cmyk: '0, 100, 15, 30',
@@ -451,6 +501,7 @@ export const colors94 = [
 
   {
     colorId: 51,
+    brandID: 1,
     code: 'RV-167',
     name: 'Rioja Red',
     cmyk: '40, 100, 0, 28',
@@ -460,6 +511,7 @@ export const colors94 = [
 
   {
     colorId: 52,
+    brandID: 1,
     code: 'RV-168',
     name: 'Anger Red',
     cmyk: '0, 80, 45, 55',
@@ -469,6 +521,7 @@ export const colors94 = [
 
   {
     colorId: 53,
+    brandID: 1,
     code: 'RV-169',
     name: 'Taurus Red',
     cmyk: '0, 100, 30, 61',
@@ -478,6 +531,7 @@ export const colors94 = [
 
   {
     colorId: 54,
+    brandID: 1,
     code: 'RV-196',
     name: 'Saudade Pink',
     cmyk: '0,16,8,0',
@@ -487,6 +541,7 @@ export const colors94 = [
 
   {
     colorId: 55,
+    brandID: 1,
     code: 'RV-86',
     name: 'Boreal Pink',
     cmyk: '0,18,10,1',
@@ -496,6 +551,7 @@ export const colors94 = [
 
   {
     colorId: 56,
+    brandID: 1,
     code: 'RV-87',
     name: 'Stereo Pink',
     cmyk: '0, 36, 21, 10',
@@ -505,6 +561,7 @@ export const colors94 = [
 
   {
     colorId: 57,
+    brandID: 1,
     code: 'RV-88',
     name: 'Single Pink',
     cmyk: '5, 35, 15, 25',
@@ -514,6 +571,7 @@ export const colors94 = [
 
   {
     colorId: 58,
+    brandID: 1,
     code: 'RV-89',
     name: 'Compact Red',
     cmyk: '0, 59, 48, 48',
@@ -523,6 +581,7 @@ export const colors94 = [
 
   {
     colorId: 59,
+    brandID: 1,
     code: 'RV-90',
     name: 'Bitacora Red',
     cmyk: '50, 100, 100, 25',
@@ -532,6 +591,7 @@ export const colors94 = [
 
   {
     colorId: 60,
+    brandID: 1,
     code: 'RV-91',
     name: 'Pandora Red',
     cmyk: '65, 100, 100, 35',
@@ -541,6 +601,7 @@ export const colors94 = [
 
   {
     colorId: 61,
+    brandID: 1,
     code: 'RV-92',
     name: 'Gaudi Red',
     cmyk: '32, 42, 0, 55',
@@ -550,6 +611,7 @@ export const colors94 = [
 
   {
     colorId: 62,
+    brandID: 1,
     code: 'RV-93',
     name: 'Stendhal Red',
     cmyk: '72, 100, 77, 40',
@@ -559,6 +621,7 @@ export const colors94 = [
 
   {
     colorId: 63,
+    brandID: 1,
     code: 'RV-197',
     name: 'Penelope Brown',
     cmyk: '5, 10 , 3, 0',
@@ -568,6 +631,7 @@ export const colors94 = [
 
   {
     colorId: 64,
+    brandID: 1,
     code: 'RV-176',
     name: 'Sensible Brown',
     cmyk: '0,11,8,0',
@@ -577,6 +641,7 @@ export const colors94 = [
 
   {
     colorId: 65,
+    brandID: 1,
     code: 'RV-203',
     name: 'Oak Brown',
     cmyk: '0, 40, 35, 20',
@@ -586,6 +651,7 @@ export const colors94 = [
 
   {
     colorId: 66,
+    brandID: 1,
     code: 'RV-204',
     name: 'Interrail Brown',
     cmyk: '0, 70, 66, 30',
@@ -595,6 +661,7 @@ export const colors94 = [
 
   {
     colorId: 67,
+    brandID: 1,
     code: 'RV-205',
     name: 'Warrior Brown',
     cmyk: '0, 100, 30, 61',
@@ -604,6 +671,7 @@ export const colors94 = [
 
   {
     colorId: 68,
+    brandID: 1,
     code: 'RV-200',
     name: 'Plancton',
     cmyk: '6,0,23,0',
@@ -613,6 +681,7 @@ export const colors94 = [
 
   {
     colorId: 69,
+    brandID: 1,
     code: 'RV-64',
     name: 'Respect Pink',
     cmyk: '0,8,21,32',
@@ -622,6 +691,7 @@ export const colors94 = [
 
   {
     colorId: 70,
+    brandID: 1,
     code: 'RV-201',
     name: 'Scarlet Brown',
     cmyk: '0, 48, 38, 34',
@@ -631,6 +701,7 @@ export const colors94 = [
 
   {
     colorId: 71,
+    brandID: 1,
     code: 'RV-202',
     name: 'Mosquito Brown',
     cmyk: '0, 48, 38, 34',
@@ -640,6 +711,7 @@ export const colors94 = [
 
   {
     colorId: 72,
+    brandID: 1,
     code: 'RV-321',
     name: 'April Violet',
     cmyk: '8, 25, 0, 0',
@@ -649,6 +721,7 @@ export const colors94 = [
 
   {
     colorId: 73,
+    brandID: 1,
     code: 'RV-195',
     name: 'Shiva Violet',
     cmyk: '7,20,0,0',
@@ -658,6 +731,7 @@ export const colors94 = [
 
   {
     colorId: 74,
+    brandID: 1,
     code: 'RV-322',
     name: 'Arlet Violet',
     cmyk: '20, 38, 0, 0',
@@ -667,6 +741,7 @@ export const colors94 = [
 
   {
     colorId: 75,
+    brandID: 1,
     code: 'RV-170',
     name: 'Persia Violet',
     cmyk: '17,37,0,0',
@@ -676,6 +751,7 @@ export const colors94 = [
 
   {
     colorId: 76,
+    brandID: 1,
     code: 'RV-323',
     name: 'Mandala Violet',
     cmyk: '30, 50, 0, 0',
@@ -685,6 +761,7 @@ export const colors94 = [
 
   {
     colorId: 77,
+    brandID: 1,
     code: 'RV-276',
     name: 'Bishop Violet',
     cmyk: '40,65,0,0',
@@ -694,6 +771,7 @@ export const colors94 = [
 
   {
     colorId: 78,
+    brandID: 1,
     code: 'RV-275',
     name: 'Raval Violet',
     cmyk: '39,69,3,1',
@@ -703,6 +781,7 @@ export const colors94 = [
 
   {
     colorId: 79,
+    brandID: 1,
     code: 'RV-283',
     name: 'Sultan Violet',
     cmyk: '51, 83, 3, 20',
@@ -712,6 +791,7 @@ export const colors94 = [
 
   {
     colorId: 80,
+    brandID: 1,
     code: 'RV-274',
     name: 'Reverend Violet',
     cmyk: '58, 85, 29, 46',
@@ -721,6 +801,7 @@ export const colors94 = [
 
   {
     colorId: 81,
+    brandID: 1,
     code: 'RV-310',
     name: 'Republic Violet',
     cmyk: '16, 23, 0, 0',
@@ -730,6 +811,7 @@ export const colors94 = [
 
   {
     colorId: 82,
+    brandID: 1,
     code: 'RV-311',
     name: 'Woodstock Violet',
     cmyk: '22, 25, 0, 0',
@@ -739,6 +821,7 @@ export const colors94 = [
 
   {
     colorId: 83,
+    brandID: 1,
     code: 'RV-171',
     name: 'Community Violet',
     cmyk: '20,35,0,0',
@@ -748,6 +831,7 @@ export const colors94 = [
 
   {
     colorId: 84,
+    brandID: 1,
     code: 'RV-172',
     name: 'Destiny Violet',
     cmyk: '20,35,0,0',
@@ -757,6 +841,7 @@ export const colors94 = [
 
   {
     colorId: 85,
+    brandID: 1,
     code: 'RV-173',
     name: 'Ultraviolet',
     cmyk: '52, 49, 0, 14',
@@ -766,6 +851,7 @@ export const colors94 = [
 
   {
     colorId: 86,
+    brandID: 1,
     code: 'RV-174',
     name: 'Venus Violet',
     cmyk: '60, 58, 0, 19',
@@ -775,6 +861,7 @@ export const colors94 = [
 
   {
     colorId: 87,
+    brandID: 1,
     code: 'RV-175',
     name: 'Electra Violet',
     cmyk: '76, 78, 0, 47',
@@ -784,6 +871,7 @@ export const colors94 = [
 
   {
     colorId: 88,
+    brandID: 1,
     code: 'RV-28',
     name: 'Cosmos Violet',
     cmyk: '55,0,50,0',
@@ -793,6 +881,7 @@ export const colors94 = [
 
   {
     colorId: 89,
+    brandID: 1,
     code: 'RV-27',
     name: 'Vampire Violet',
     cmyk: '100, 97, 0, 45',
@@ -802,6 +891,7 @@ export const colors94 = [
 
   {
     colorId: 90,
+    brandID: 1,
     code: 'RV-312',
     name: 'Sagan Blue',
     cmyk: '28, 18, 0, 0',
@@ -811,6 +901,7 @@ export const colors94 = [
 
   {
     colorId: 91,
+    brandID: 1,
     code: 'RV-313',
     name: 'Martínez Blue',
     cmyk: '36, 21, 0, 0',
@@ -820,6 +911,7 @@ export const colors94 = [
 
   {
     colorId: 92,
+    brandID: 1,
     code: 'RV-314',
     name: 'Rosemary Blue',
     cmyk: '43, 26, 0, 0',
@@ -829,6 +921,7 @@ export const colors94 = [
 
   {
     colorId: 93,
+    brandID: 1,
     code: 'RV-315',
     name: 'Dancer Blue',
     cmyk: '53, 32, 0, 0',
@@ -838,6 +931,7 @@ export const colors94 = [
 
   {
     colorId: 94,
+    brandID: 1,
     code: 'RV-316',
     name: 'Marseille Blue',
     cmyk: '66, 43, 0, 0',
@@ -847,6 +941,7 @@ export const colors94 = [
 
   {
     colorId: 95,
+    brandID: 1,
     code: 'RV-317',
     name: 'Porto Blue',
     cmyk: '70, 58, 0, 0',
@@ -856,6 +951,7 @@ export const colors94 = [
 
   {
     colorId: 96,
+    brandID: 1,
     code: 'RV-318',
     name: 'Ween Blue',
     cmyk: '86, 69, 0, 0',
@@ -865,6 +961,7 @@ export const colors94 = [
 
   {
     colorId: 97,
+    brandID: 1,
     code: 'RV-319',
     name: 'Tuareg Blue',
     cmyk: '100, 90, 2, 5',
@@ -874,6 +971,7 @@ export const colors94 = [
 
   {
     colorId: 98,
+    brandID: 1,
     code: 'RV-320',
     name: 'Mantra Blue',
     cmyk: '100, 100, 35, 0',
@@ -883,6 +981,7 @@ export const colors94 = [
 
   {
     colorId: 99,
+    brandID: 1,
     code: 'RV-184',
     name: 'Rain Blue',
     cmyk: '100, 100, 0, 58',
@@ -892,6 +991,7 @@ export const colors94 = [
 
   {
     colorId: 100,
+    brandID: 1,
     code: 'RV-149',
     name: 'Hydra Blue',
     cmyk: '69, 7, 0, 0',
@@ -901,6 +1001,7 @@ export const colors94 = [
 
   {
     colorId: 101,
+    brandID: 1,
     code: 'RV-150',
     name: 'Argo Blue',
     cmyk: '41, 2, 0, 0',
@@ -910,6 +1011,7 @@ export const colors94 = [
 
   {
     colorId: 102,
+    brandID: 1,
     code: 'RV-151',
     name: 'Freedom Blue',
     cmyk: '85, 19, 0, 0',
@@ -919,6 +1021,7 @@ export const colors94 = [
 
   {
     colorId: 103,
+    brandID: 1,
     code: 'RV-152',
     name: 'Europe Blue',
     cmyk: '85, 24, 0, 0',
@@ -928,6 +1031,7 @@ export const colors94 = [
 
   {
     colorId: 104,
+    brandID: 1,
     code: 'RV-30',
     name: 'Electric Blue',
     cmyk: '100, 30, 0, 20',
@@ -937,6 +1041,7 @@ export const colors94 = [
 
   {
     colorId: 105,
+    brandID: 1,
     code: 'RV-5005',
     name: 'Dark Blue',
     cmyk: '100, 58, 0, 21',
@@ -946,6 +1051,7 @@ export const colors94 = [
 
   {
     colorId: 106,
+    brandID: 1,
     code: 'RV-154',
     name: 'Twister Blue',
     cmyk: '100, 68, 0, 52',
@@ -955,6 +1061,7 @@ export const colors94 = [
 
   {
     colorId: 107,
+    brandID: 1,
     code: 'RV-5013',
     name: 'Navy Blue',
     cmyk: '100, 68, 0, 54',
@@ -964,6 +1071,7 @@ export const colors94 = [
 
   {
     colorId: 108,
+    brandID: 1,
     code: 'RV-185',
     name: 'Angel Blue',
     cmyk: '100, 68, 0, 54',
@@ -973,6 +1081,7 @@ export const colors94 = [
 
   {
     colorId: 109,
+    brandID: 1,
     code: 'RV-156',
     name: 'Barceloneta Blue',
     cmyk: '12,0,2,0',
@@ -982,6 +1091,7 @@ export const colors94 = [
 
   {
     colorId: 110,
+    brandID: 1,
     code: 'RV-157',
     name: 'Thalassa Blue',
     cmyk: '33,3,0,0',
@@ -991,6 +1101,7 @@ export const colors94 = [
 
   {
     colorId: 111,
+    brandID: 1,
     code: 'RV-158',
     name: 'Perseus Blue',
     cmyk: '40,0,5,6',
@@ -1000,6 +1111,7 @@ export const colors94 = [
 
   {
     colorId: 112,
+    brandID: 1,
     code: 'RV-159',
     name: 'Odyssey Blue',
     cmyk: '52,6,0,25',
@@ -1009,6 +1121,7 @@ export const colors94 = [
 
   {
     colorId: 113,
+    brandID: 1,
     code: 'RV-160',
     name: 'Eureka Blue',
     cmyk: '58, 17, 0, 46',
@@ -1018,6 +1131,7 @@ export const colors94 = [
 
   {
     colorId: 114,
+    brandID: 1,
     code: 'RV-161',
     name: 'Jase Blue',
     cmyk: '33,4,0,72',
@@ -1027,6 +1141,7 @@ export const colors94 = [
 
   {
     colorId: 115,
+    brandID: 1,
     code: 'RV-162',
     name: 'Deep Blue',
     cmyk: '100, 11, 0, 74',
@@ -1036,6 +1151,7 @@ export const colors94 = [
 
   {
     colorId: 116,
+    brandID: 1,
     code: 'RV-163',
     name: 'Poseydon Blue',
     cmyk: '100, 19, 0, 75',
@@ -1045,6 +1161,7 @@ export const colors94 = [
 
   {
     colorId: 117,
+    brandID: 1,
     code: 'RV-186',
     name: 'Virgin Green',
     cmyk: '6,0, 4,11',
@@ -1054,6 +1171,7 @@ export const colors94 = [
 
   {
     colorId: 118,
+    brandID: 1,
     code: 'RV-142',
     name: 'Gemini Green',
     cmyk: '13, 0 , 10, 2',
@@ -1063,6 +1181,7 @@ export const colors94 = [
 
   {
     colorId: 119,
+    brandID: 1,
     code: 'RV-6027',
     name: 'Luminous Green',
     cmyk: '25,0,10,0',
@@ -1072,6 +1191,7 @@ export const colors94 = [
 
   {
     colorId: 120,
+    brandID: 1,
     code: 'RV-144',
     name: 'Bali Green',
     cmyk: '48,0,29,0',
@@ -1081,6 +1201,7 @@ export const colors94 = [
 
   {
     colorId: 121,
+    brandID: 1,
     code: 'RV-145',
     name: 'Erasmus Green',
     cmyk: '52,0,25,0',
@@ -1090,6 +1211,7 @@ export const colors94 = [
 
   {
     colorId: 122,
+    brandID: 1,
     code: 'RV-5018',
     name: 'Turquoise',
     cmyk: '90, 0, 28, 22',
@@ -1099,6 +1221,7 @@ export const colors94 = [
 
   {
     colorId: 123,
+    brandID: 1,
     code: 'RV-146',
     name: 'Glory Blue',
     cmyk: '82, 0, 28, 52',
@@ -1108,6 +1231,7 @@ export const colors94 = [
 
   {
     colorId: 124,
+    brandID: 1,
     code: 'RV-147',
     name: 'Pegasus Blue',
     cmyk: '100, 24, 0, 64',
@@ -1117,6 +1241,7 @@ export const colors94 = [
 
   {
     colorId: 125,
+    brandID: 1,
     code: 'RV-148',
     name: 'Hercules Blue',
     cmyk: '100, 0, 18, 83',
@@ -1126,6 +1251,7 @@ export const colors94 = [
 
   {
     colorId: 126,
+    brandID: 1,
     code: 'RV-187',
     name: 'Vespa Green',
     cmyk: '8, 0, 16, 0',
@@ -1135,6 +1261,7 @@ export const colors94 = [
 
   {
     colorId: 127,
+    brandID: 1,
     code: 'RV-124',
     name: 'Frisco Green',
     cmyk: '12,0,29,0',
@@ -1144,6 +1271,7 @@ export const colors94 = [
 
   {
     colorId: 128,
+    brandID: 1,
     code: 'RV-16',
     name: 'Pistachio Green',
     cmyk: '11,0, 66,2',
@@ -1153,6 +1281,7 @@ export const colors94 = [
 
   {
     colorId: 129,
+    brandID: 1,
     code: 'RV-125',
     name: 'Neon Green',
     cmyk: '45, 0 ,100, 24',
@@ -1162,6 +1291,7 @@ export const colors94 = [
 
   {
     colorId: 130,
+    brandID: 1,
     code: 'RV-34',
     name: 'Guacamole Green',
     cmyk: '23, 0, 100, 17',
@@ -1171,6 +1301,7 @@ export const colors94 = [
 
   {
     colorId: 131,
+    brandID: 1,
     code: 'RV-6018',
     name: 'Valley Green',
     cmyk: '12,0,29,0',
@@ -1180,6 +1311,7 @@ export const colors94 = [
 
   {
     colorId: 132,
+    brandID: 1,
     code: 'RV-126',
     name: 'Toscana Green',
     cmyk: '34, 0, 81, 71',
@@ -1189,6 +1321,7 @@ export const colors94 = [
 
   {
     colorId: 133,
+    brandID: 1,
     code: 'RV-127',
     name: 'Era Green',
     cmyk: '65, 0, 56, 94',
@@ -1198,6 +1331,7 @@ export const colors94 = [
 
   {
     colorId: 134,
+    brandID: 1,
     code: 'RV-6009',
     name: 'Amazon Green',
     cmyk: '66, 0, 57, 82',
@@ -1207,6 +1341,7 @@ export const colors94 = [
 
   {
     colorId: 135,
+    brandID: 1,
     code: 'RV-188',
     name: 'Shining Green',
     cmyk: '0, 0, 18, 1',
@@ -1216,6 +1351,7 @@ export const colors94 = [
 
   {
     colorId: 136,
+    brandID: 1,
     code: 'RV-1016',
     name: 'Lemon Yellow',
     cmyk: '11, 0, 66, 2',
@@ -1225,6 +1361,7 @@ export const colors94 = [
 
   {
     colorId: 137,
+    brandID: 1,
     code: 'RV-129',
     name: 'Oregano Green',
     cmyk: '23, 0, 100, 17',
@@ -1234,6 +1371,7 @@ export const colors94 = [
 
   {
     colorId: 138,
+    brandID: 1,
     code: 'RV-60',
     name: 'Krypton Green',
     cmyk: '13, 0, 100, 46',
@@ -1243,6 +1381,7 @@ export const colors94 = [
 
   {
     colorId: 139,
+    brandID: 1,
     code: 'RV-130',
     name: 'Euskadi Green',
     cmyk: '34, 0, 100, 60',
@@ -1252,6 +1391,7 @@ export const colors94 = [
 
   {
     colorId: 140,
+    brandID: 1,
     code: 'RV-131',
     name: 'Comarca Green',
     cmyk: '32, 0, 100, 79',
@@ -1261,6 +1401,7 @@ export const colors94 = [
 
   {
     colorId: 141,
+    brandID: 1,
     code: 'RV-132',
     name: 'Borneo Green',
     cmyk: '33, 0, 85, 82',
@@ -1270,6 +1411,7 @@ export const colors94 = [
 
   {
     colorId: 142,
+    brandID: 1,
     code: 'RV-133',
     name: 'Dharma Green',
     cmyk: '66, 0, 57, 82',
@@ -1279,6 +1421,7 @@ export const colors94 = [
 
   {
     colorId: 143,
+    brandID: 1,
     code: 'RV-134',
     name: 'Infinite Green',
     cmyk: '65, 0, 56, 94',
@@ -1288,6 +1431,7 @@ export const colors94 = [
 
   {
     colorId: 144,
+    brandID: 1,
     code: 'RV-270',
     name: 'Formentera Blue',
     cmyk: '65,0,20,0',
@@ -1297,6 +1441,7 @@ export const colors94 = [
 
   {
     colorId: 145,
+    brandID: 1,
     code: 'RV-269',
     name: 'Genesis Blue',
     cmyk: '75, 5, 15, 10',
@@ -1306,6 +1451,7 @@ export const colors94 = [
 
   {
     colorId: 146,
+    brandID: 1,
     code: 'RV-268',
     name: 'Tramontana Blue',
     cmyk: '100, 0, 10, 35',
@@ -1315,6 +1461,7 @@ export const colors94 = [
 
   {
     colorId: 147,
+    brandID: 1,
     code: 'RV-199',
     name: 'Java Green',
     cmyk: '31,0,20,0',
@@ -1324,6 +1471,7 @@ export const colors94 = [
 
   {
     colorId: 148,
+    brandID: 1,
     code: 'RV-182',
     name: 'Emerald Green',
     cmyk: '70,0,38,8',
@@ -1333,6 +1481,7 @@ export const colors94 = [
 
   {
     colorId: 149,
+    brandID: 1,
     code: 'RV-183',
     name: 'Beryl Green',
     cmyk: '85, 0, 50, 31',
@@ -1342,6 +1491,7 @@ export const colors94 = [
 
   {
     colorId: 150,
+    brandID: 1,
     code: 'RV-179',
     name: 'Bonsai Green',
     cmyk: '7,0,31,13',
@@ -1351,6 +1501,7 @@ export const colors94 = [
 
   {
     colorId: 151,
+    brandID: 1,
     code: 'RV-180',
     name: 'Thai Green',
     cmyk: '9,0,43,38',
@@ -1360,6 +1511,7 @@ export const colors94 = [
 
   {
     colorId: 152,
+    brandID: 1,
     code: 'RV-181',
     name: 'Labyrinth Green',
     cmyk: '3,0,31,75',
@@ -1369,6 +1521,7 @@ export const colors94 = [
 
   {
     colorId: 153,
+    brandID: 1,
     code: 'RV-267',
     name: 'Sulfur Yellow',
     cmyk: '5,1,93,0',
@@ -1378,6 +1531,7 @@ export const colors94 = [
 
   {
     colorId: 154,
+    brandID: 1,
     code: 'RV-266',
     name: 'Psycho Green',
     cmyk: '19,0,91,0',
@@ -1387,6 +1541,7 @@ export const colors94 = [
 
   {
     colorId: 155,
+    brandID: 1,
     code: 'RV-265',
     name: 'Sonar Green',
     cmyk: '29,0,99,9',
@@ -1396,6 +1551,7 @@ export const colors94 = [
 
   {
     colorId: 156,
+    brandID: 1,
     code: 'RV-281',
     name: 'Laser Green',
     cmyk: '50,0,85,0',
@@ -1405,6 +1561,7 @@ export const colors94 = [
 
   {
     colorId: 157,
+    brandID: 1,
     code: 'RV-282',
     name: 'Laos Green',
     cmyk: '50, 0, 100, 0',
@@ -1414,6 +1571,7 @@ export const colors94 = [
 
   {
     colorId: 158,
+    brandID: 1,
     code: 'RV-280',
     name: 'Hulk Green',
     cmyk: '80, 0, 100, 0',
@@ -1423,6 +1581,7 @@ export const colors94 = [
 
   {
     colorId: 159,
+    brandID: 1,
     code: 'RV-272',
     name: 'Mint Green',
     cmyk: '49, 0, 60, 0',
@@ -1432,6 +1591,7 @@ export const colors94 = [
 
   {
     colorId: 160,
+    brandID: 1,
     code: 'RV-273',
     name: 'Iguana Green',
     cmyk: '47,0,85,0',
@@ -1441,6 +1601,7 @@ export const colors94 = [
 
   {
     colorId: 161,
+    brandID: 1,
     code: 'RV-271',
     name: 'Mystic Green',
     cmyk: '77,0,90,0',
@@ -1450,6 +1611,7 @@ export const colors94 = [
 
   {
     colorId: 162,
+    brandID: 1,
     code: 'RV-1017',
     name: 'Peach',
     cmyk: '0, 30, 60,, 2',
@@ -1459,6 +1621,7 @@ export const colors94 = [
 
   {
     colorId: 163,
+    brandID: 1,
     code: 'RV-1028',
     name: 'Medium Yellow',
     cmyk: '0,35,70,0',
@@ -1468,6 +1631,7 @@ export const colors94 = [
 
   {
     colorId: 164,
+    brandID: 1,
     code: 'RV-207',
     name: 'Mango',
     cmyk: '0,50,70,0',
@@ -1477,6 +1641,7 @@ export const colors94 = [
 
   {
     colorId: 165,
+    brandID: 1,
     code: 'RV-177',
     name: 'Eldorado',
     cmyk: '0,10,99,0',
@@ -1486,6 +1651,7 @@ export const colors94 = [
 
   {
     colorId: 166,
+    brandID: 1,
     code: 'RV-178',
     name: 'Tibet',
     cmyk: '0, 28, 100, 18',
@@ -1495,6 +1661,7 @@ export const colors94 = [
 
   {
     colorId: 167,
+    brandID: 1,
     code: 'RV-8023',
     name: 'Mustard',
     cmyk: '0, 46, 100, 34',
@@ -1504,6 +1671,7 @@ export const colors94 = [
 
   {
     colorId: 168,
+    brandID: 1,
     code: 'RV-99',
     name: 'Glace Brown',
     cmyk: '0, 57, 100, 59',
@@ -1513,6 +1681,7 @@ export const colors94 = [
 
   {
     colorId: 169,
+    brandID: 1,
     code: 'RV-278',
     name: 'Joker Pink',
     cmyk: '5,65,3,0',
@@ -1522,6 +1691,7 @@ export const colors94 = [
 
   {
     colorId: 170,
+    brandID: 1,
     code: 'RV-277',
     name: 'Disco Pink',
     cmyk: '24,80,0,0',
@@ -1531,6 +1701,7 @@ export const colors94 = [
 
   {
     colorId: 171,
+    brandID: 1,
     code: 'RV-279',
     name: 'Rosario Pink',
     cmyk: '2,95,4,0',
@@ -1540,6 +1711,7 @@ export const colors94 = [
 
   {
     colorId: 172,
+    brandID: 1,
     code: 'RV-3020',
     name: 'Light Red',
     cmyk: '0,90,85,0',
@@ -1549,6 +1721,7 @@ export const colors94 = [
 
   {
     colorId: 173,
+    brandID: 1,
     code: 'RV-241',
     name: 'Madrid Red',
     cmyk: '1, 10, 78, 10',
@@ -1558,6 +1731,7 @@ export const colors94 = [
 
   {
     colorId: 174,
+    brandID: 1,
     code: 'RV-245',
     name: 'Cyan',
     cmyk: '74,3,27,0',
@@ -1567,6 +1741,7 @@ export const colors94 = [
 
   {
     colorId: 175,
+    brandID: 1,
     code: 'RV-243',
     name: 'Babylon Blue',
     cmyk: '100, 65, 18, 17',
@@ -1576,6 +1751,7 @@ export const colors94 = [
 
   {
     colorId: 176,
+    brandID: 1,
     code: 'RV-198',
     name: 'Stardust Grey',
     cmyk: '0, 0, 0, 6',
@@ -1585,6 +1761,7 @@ export const colors94 = [
 
   {
     colorId: 177,
+    brandID: 1,
     code: 'RV-7047',
     name: 'Siberian Grey',
     cmyk: '0,0,0,10',
@@ -1594,6 +1771,7 @@ export const colors94 = [
 
   {
     colorId: 178,
+    brandID: 1,
     code: 'RV-118',
     name: 'Rita Grey',
     cmyk: '0,0,0,11',
@@ -1603,6 +1781,7 @@ export const colors94 = [
 
   {
     colorId: 179,
+    brandID: 1,
     code: 'RV-7040',
     name: 'Pearl Grey',
     cmyk: '0,0,0,29',
@@ -1612,6 +1791,7 @@ export const colors94 = [
 
   {
     colorId: 180,
+    brandID: 1,
     code: 'RV-119',
     name: 'London Grey',
     cmyk: '0,0,0,40',
@@ -1621,6 +1801,7 @@ export const colors94 = [
 
   {
     colorId: 181,
+    brandID: 1,
     code: 'RV-120',
     name: 'Wolf Grey',
     cmyk: '0,0,0,77',
@@ -1630,6 +1811,7 @@ export const colors94 = [
 
   {
     colorId: 182,
+    brandID: 1,
     code: 'RV-121',
     name: 'Icarus Grey',
     cmyk: '0,0,0,37',
@@ -1639,6 +1821,7 @@ export const colors94 = [
 
   {
     colorId: 183,
+    brandID: 1,
     code: 'RV-7016',
     name: 'Anthracite Grey',
     cmyk: '21, 0, 23, 75',
@@ -1648,6 +1831,7 @@ export const colors94 = [
 
   {
     colorId: 184,
+    brandID: 1,
     code: 'RV-78',
     name: 'Metropolis Grey',
     cmyk: '16, 0, 31, 82',
@@ -1657,6 +1841,7 @@ export const colors94 = [
 
   {
     colorId: 185,
+    brandID: 1,
     code: 'RV-300',
     name: 'Tofu Grey',
     cmyk: '1, 1, 15, 0',
@@ -1666,6 +1851,7 @@ export const colors94 = [
 
   {
     colorId: 186,
+    brandID: 1,
     code: 'RV-301',
     name: 'Placebo Grey',
     cmyk: '5, 5, 20, 0',
@@ -1675,6 +1861,7 @@ export const colors94 = [
 
   {
     colorId: 187,
+    brandID: 1,
     code: 'RV-302',
     name: 'Koala Grey',
     cmyk: '18, 19, 23, 0',
@@ -1684,6 +1871,7 @@ export const colors94 = [
 
   {
     colorId: 188,
+    brandID: 1,
     code: 'RV-303',
     name: 'Native Grey',
     cmyk: '31, 29, 30, 0',
@@ -1693,6 +1881,7 @@ export const colors94 = [
 
   {
     colorId: 189,
+    brandID: 1,
     code: 'RV-304',
     name: 'Balboa Grey',
     cmyk: '43, 40, 41, 0',
@@ -1702,6 +1891,7 @@ export const colors94 = [
 
   {
     colorId: 190,
+    brandID: 1,
     code: 'RV-305',
     name: 'Cloud Grey',
     cmyk: '25, 13, 14, 0',
@@ -1711,6 +1901,7 @@ export const colors94 = [
 
   {
     colorId: 191,
+    brandID: 1,
     code: 'RV-306',
     name: 'Winter Grey',
     cmyk: '30, 17, 13, 5',
@@ -1720,6 +1911,7 @@ export const colors94 = [
 
   {
     colorId: 192,
+    brandID: 1,
     code: 'RV-307',
     name: 'Jaws Grey',
     cmyk: '31, 18, 13, 12',
@@ -1729,6 +1921,7 @@ export const colors94 = [
 
   {
     colorId: 193,
+    brandID: 1,
     code: 'RV-308',
     name: 'Whale Grey',
     cmyk: '66, 48, 35, 0',
@@ -1738,6 +1931,7 @@ export const colors94 = [
 
   {
     colorId: 194,
+    brandID: 1,
     code: 'RV-309',
     name: 'Chernobyl Grey',
     cmyk: '70, 50, 38, 5',
@@ -1747,6 +1941,7 @@ export const colors94 = [
 
   {
     colorId: 195,
+    brandID: 1,
     code: 'RV-9010',
     name: 'White',
     cmyk: '0, 0, 0, 0',
@@ -1756,6 +1951,7 @@ export const colors94 = [
 
   {
     colorId: 196,
+    brandID: 1,
     code: 'RV-9011',
     name: 'Black',
     cmyk: '0, 0, 0, 100',
@@ -1765,33 +1961,37 @@ export const colors94 = [
 
   {
     colorId: 197,
+    brandID: 1,
     code: '',
     name: 'Jewel Silver',
     cmyk: '',
-    hex: '',
+    hex: '#727171',
     pantone: '',
   },
 
   {
     colorId: 198,
+    brandID: 1,
     code: '',
     name: 'Frame Gold',
     cmyk: '',
-    hex: '',
+    hex: '#D4AF37',
     pantone: '',
   },
 
   {
     colorId: 199,
+    brandID: 1,
     code: '',
     name: 'Copper Triumph',
     cmyk: '',
-    hex: '',
+    hex: '#B87333',
     pantone: '',
   },
 
   {
     colorId: 200,
+    brandID: 1,
     code: '',
     name: 'Fluorescent Yellow',
     cmyk: '',
@@ -1801,6 +2001,7 @@ export const colors94 = [
 
   {
     colorId: 201,
+    brandID: 1,
     code: '',
     name: 'Fluerescent Orange',
     cmyk: '',
@@ -1810,6 +2011,7 @@ export const colors94 = [
 
   {
     colorId: 202,
+    brandID: 1,
     code: '',
     name: 'Fluorescent Red',
     cmyk: '',
@@ -1819,6 +2021,7 @@ export const colors94 = [
 
   {
     colorId: 203,
+    brandID: 1,
     code: '',
     name: 'Fluorescent Fucsia',
     cmyk: '',
@@ -1828,6 +2031,7 @@ export const colors94 = [
 
   {
     colorId: 204,
+    brandID: 1,
     code: '',
     name: 'Fluorescent Violet',
     cmyk: '',
@@ -1837,6 +2041,7 @@ export const colors94 = [
 
   {
     colorId: 205,
+    brandID: 1,
     code: '',
     name: 'Fluorescent Blue',
     cmyk: '',
@@ -1846,6 +2051,7 @@ export const colors94 = [
 
   {
     colorId: 206,
+    brandID: 1,
     code: '',
     name: 'Fluorescent Green',
     cmyk: '',
@@ -1855,6 +2061,7 @@ export const colors94 = [
 
   {
     colorId: 207,
+    brandID: 1,
     code: '',
     name: 'Ethereal Yellow Spectral',
     cmyk: '',
@@ -1864,6 +2071,7 @@ export const colors94 = [
 
   {
     colorId: 208,
+    brandID: 1,
     code: '',
     name: 'Calima Orange Spectral',
     cmyk: '',
@@ -1873,6 +2081,7 @@ export const colors94 = [
 
   {
     colorId: 209,
+    brandID: 1,
     code: '',
     name: 'Soul Red Spectral',
     cmyk: '',
@@ -1882,6 +2091,7 @@ export const colors94 = [
 
   {
     colorId: 210,
+    brandID: 1,
     code: '',
     name: 'Judea Brown Spectral',
     cmyk: '',
@@ -1891,6 +2101,7 @@ export const colors94 = [
 
   {
     colorId: 211,
+    brandID: 1,
     code: '',
     name: 'Aura Violet Spectral',
     cmyk: '',
@@ -1900,6 +2111,7 @@ export const colors94 = [
 
   {
     colorId: 212,
+    brandID: 1,
     code: '',
     name: 'Atmosphere Blue Spectral',
     cmyk: '',
@@ -1909,6 +2121,7 @@ export const colors94 = [
 
   {
     colorId: 213,
+    brandID: 1,
     code: '',
     name: 'Breeze Green Spectral',
     cmyk: '',
@@ -1918,6 +2131,7 @@ export const colors94 = [
 
   {
     colorId: 214,
+    brandID: 1,
     code: '',
     name: 'Air White Spectral',
     cmyk: '',
@@ -1927,6 +2141,7 @@ export const colors94 = [
 
   {
     colorId: 215,
+    brandID: 1,
     code: '',
     name: 'Spectral Smoke Grey',
     cmyk: '',
@@ -1936,17 +2151,17 @@ export const colors94 = [
 
   {
     colorId: 216,
+    brandID: 1,
     code: '',
     name: 'Shadow Black Spectral',
     cmyk: '',
     hex: '#a6a6a7',
     pantone: '',
   },
-];
 
-export const colorsHardcore = [
   {
-    colorId: 1,
+    colorId: 217,
+    brandID: 2,
     code: 'RV-252',
     name: 'Unicorn Yellow',
     cmyk: '1, 2, 24, 0',
@@ -1955,7 +2170,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 2,
+    colorId: 218,
+    brandID: 2,
     code: 'RV-222',
     name: 'Beach Yellow',
     cmyk: '1, 0, 58, 0',
@@ -1964,7 +2180,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 3,
+    colorId: 219,
+    brandID: 2,
     code: 'RV-7',
     name: 'Cream',
     cmyk: '0,18,50,0',
@@ -1973,7 +2190,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 4,
+    colorId: 220,
+    brandID: 2,
     code: 'RV-20',
     name: 'Party Yellow',
     cmyk: '0, 0, 79, O',
@@ -1982,7 +2200,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 5,
+    colorId: 221,
+    brandID: 2,
     code: 'RV-1021',
     name: 'Light Yellow',
     cmyk: '0, 15, 100, 0',
@@ -1991,7 +2210,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 6,
+    colorId: 222,
+    brandID: 2,
     code: 'RV-239',
     name: 'Luxor Yellow',
     cmyk: '0, 32, 100, 0',
@@ -2000,7 +2220,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 7,
+    colorId: 223,
+    brandID: 2,
     code: 'RV-11',
     name: 'Ganges Yellow',
     cmyk: '6, 20, 88, 0',
@@ -2009,7 +2230,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 8,
+    colorId: 224,
+    brandID: 2,
     code: 'RV-206',
     name: 'Atacama Yellow',
     cmyk: '0,25,50,0',
@@ -2018,7 +2240,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 9,
+    colorId: 225,
+    brandID: 2,
     code: 'RV-1017',
     name: 'Peach',
     cmyk: '0,42,75,2',
@@ -2027,7 +2250,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 10,
+    colorId: 226,
+    brandID: 2,
     code: 'RV-1028',
     name: 'Medium Yellow',
     cmyk: '0, 41, 100, 0',
@@ -2036,7 +2260,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 11,
+    colorId: 227,
+    brandID: 2,
     code: 'RV-207',
     name: 'Mango',
     cmyk: '0, 62, 95, 0',
@@ -2045,7 +2270,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 12,
+    colorId: 228,
+    brandID: 2,
     code: 'RV-8023',
     name: 'Mustard',
     cmyk: '0, 72, 95, 28',
@@ -2054,7 +2280,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 13,
+    colorId: 229,
+    brandID: 2,
     code: 'RV-261',
     name: 'Pangea Brown',
     cmyk: '5, 83, 100, 27',
@@ -2063,7 +2290,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 14,
+    colorId: 230,
+    brandID: 2,
     code: 'RV-18',
     name: 'Rust Red',
     cmyk: '13,83,100,62',
@@ -2072,7 +2300,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 15,
+    colorId: 231,
+    brandID: 2,
     code: 'RV-9',
     name: 'Apricot',
     cmyk: '0,30,45,0',
@@ -2081,7 +2310,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 16,
+    colorId: 232,
+    brandID: 2,
     code: 'RV-208',
     name: 'Pumpkin',
     cmyk: '0, 40, 61, 0',
@@ -2090,7 +2320,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 17,
+    colorId: 233,
+    brandID: 2,
     code: 'RV-2003',
     name: 'Pastel Orange',
     cmyk: '0, 40, 61, 0',
@@ -2099,7 +2330,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 18,
+    colorId: 234,
+    brandID: 2,
     code: 'RV-209',
     name: 'Calcutta Orange',
     cmyk: '0, 85, 90, 6',
@@ -2108,7 +2340,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 19,
+    colorId: 235,
+    brandID: 2,
     code: 'RV-210',
     name: 'Prometheus Orange',
     cmyk: '0, 100, 100, 47',
@@ -2117,7 +2350,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 20,
+    colorId: 236,
+    brandID: 2,
     code: 'RV-260',
     name: 'Iroko Red',
     cmyk: '29, 82, 50, 73',
@@ -2126,7 +2360,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 21,
+    colorId: 237,
+    brandID: 2,
     code: 'RV-259',
     name: 'Flamingo',
     cmyk: '0,55,50,0',
@@ -2135,7 +2370,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 22,
+    colorId: 238,
+    brandID: 2,
     code: 'RV-33',
     name: 'Colorado Red',
     cmyk: '0,81,69,0',
@@ -2144,7 +2380,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 22,
+    colorId: 239,
+    brandID: 2,
     code: 'RV-3020',
     name: 'Light Red',
     cmyk: '0,90,85,0',
@@ -2153,7 +2390,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 23,
+    colorId: 240,
+    brandID: 2,
     code: 'RV-3001',
     name: 'Vivid Red',
     cmyk: '0, 100, 100, 15',
@@ -2162,7 +2400,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 24,
+    colorId: 241,
+    brandID: 2,
     code: 'RV-241',
     name: 'Madrid Red',
     cmyk: '0, 78, 73,0',
@@ -2171,7 +2410,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 25,
+    colorId: 241,
+    brandID: 2,
     code: 'RV-242',
     name: 'Soviet Red',
     cmyk: '0, 83,100, 47',
@@ -2180,7 +2420,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 26,
+    colorId: 242,
+    brandID: 2,
     code: 'RV-3004',
     name: 'Bordeaux Red',
     cmyk: '27, 100, 93, 40',
@@ -2189,7 +2430,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 27,
+    colorId: 243,
+    brandID: 2,
     code: 'RV-348',
     name: 'Alice Pink',
     cmyk: '0,43,7,0',
@@ -2198,7 +2440,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 28,
+    colorId: 244,
+    brandID: 2,
     code: 'RV-258',
     name: 'Manga Pink',
     cmyk: '0,40,8,0',
@@ -2207,7 +2450,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 29,
+    colorId: 245,
+    brandID: 2,
     code: 'RV-211',
     name: 'Love Pink',
     cmyk: '0,60,4,0',
@@ -2216,7 +2460,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 30,
+    colorId: 246,
+    brandID: 2,
     code: 'RV-4003',
     name: 'Erika',
     cmyk: '5,90,31,0',
@@ -2225,7 +2470,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 31,
+    colorId: 247,
+    brandID: 2,
     code: 'RV-4010',
     name: 'Magenta',
     cmyk: '5,95,43,0',
@@ -2234,7 +2480,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 32,
+    colorId: 248,
+    brandID: 2,
     code: 'RV-212',
     name: 'Akari Red',
     cmyk: '10, 100, 60, 10',
@@ -2243,7 +2490,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 33,
+    colorId: 249,
+    brandID: 2,
     code: 'RV-213',
     name: 'Merlot Red',
     cmyk: '16, 82, 39, 56',
@@ -2252,7 +2500,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 34,
+    colorId: 250,
+    brandID: 2,
     code: 'RV-349',
     name: 'Violet Treze',
     cmyk: '0,38,4,0',
@@ -2261,7 +2510,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 35,
+    colorId: 251,
+    brandID: 2,
     code: 'RV-257',
     name: 'Princess Violet',
     cmyk: '4,51,7,6',
@@ -2270,7 +2520,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 36,
+    colorId: 252,
+    brandID: 2,
     code: 'RV-224',
     name: 'Witch Violet',
     cmyk: '22, 58,10, 0',
@@ -2279,7 +2530,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 37,
+    colorId: 253,
+    brandID: 2,
     code: 'RV-225',
     name: 'Geisha Violet',
     cmyk: '25,75,9,0',
@@ -2288,7 +2540,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 38,
+    colorId: 254,
+    brandID: 2,
     code: 'RV-350',
     name: 'Pure Purple',
     cmyk: '13,96,22,43',
@@ -2297,7 +2550,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 39,
+    colorId: 255,
+    brandID: 2,
     code: 'RV-226',
     name: 'Tube Violet',
     cmyk: '30, 72, 16, 44',
@@ -2306,7 +2560,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 40,
+    colorId: 256,
+    brandID: 2,
     code: 'RV-4007',
     name: 'Cherry',
     cmyk: '30, 74, 16, 68',
@@ -2315,7 +2570,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 41,
+    colorId: 257,
+    brandID: 2,
     code: 'RV-256',
     name: 'Malva',
     cmyk: '29,25,0,0',
@@ -2324,7 +2580,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 42,
+    colorId: 258,
+    brandID: 2,
     code: 'RV-214',
     name: 'Violet',
     cmyk: '46, 44, 0, 0',
@@ -2333,7 +2590,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 43,
+    colorId: 259,
+    brandID: 2,
     code: 'RV-215',
     name: 'Prophet Violet',
     cmyk: '66,65,0,0',
@@ -2342,7 +2600,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 44,
+    colorId: 260,
+    brandID: 2,
     code: 'RV-3',
     name: 'Blue Violet',
     cmyk: '77,78,0,0',
@@ -2351,7 +2610,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 45,
+    colorId: 261,
+    brandID: 2,
     code: 'RV-216',
     name: 'Anonymous Violet',
     cmyk: '80, 85, 0, 21',
@@ -2360,7 +2620,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 46,
+    colorId: 262,
+    brandID: 2,
     code: 'RV-264',
     name: 'Galaxy Violet',
     cmyk: '100, 100, 10, 79',
@@ -2369,7 +2630,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 47,
+    colorId: 263,
+    brandID: 2,
     code: 'RV-27',
     name: 'Vampire Violet',
     cmyk: '',
@@ -2378,7 +2640,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 48,
+    colorId: 264,
+    brandID: 2,
     code: 'RV-73',
     name: 'Aurora Blue',
     cmyk: '25,14,0,0',
@@ -2387,7 +2650,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 49,
+    colorId: 265,
+    brandID: 2,
     code: 'RV-351',
     name: 'Hortensia Blue',
     cmyk: '52,34,0,0',
@@ -2396,7 +2660,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 50,
+    colorId: 266,
+    brandID: 2,
     code: 'RV-352',
     name: 'Gala Blue',
     cmyk: '70,51,0,0',
@@ -2405,7 +2670,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 51,
+    colorId: 267,
+    brandID: 2,
     code: 'RV-353',
     name: 'Julione Blue',
     cmyk: '85,70,2,0',
@@ -2414,7 +2680,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 52,
+    colorId: 268,
+    brandID: 2,
     code: 'RV-243',
     name: 'Babylon Blue',
     cmyk: '100, 65, 18, 17',
@@ -2423,7 +2690,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 53,
+    colorId: 269,
+    brandID: 2,
     code: 'RV-32',
     name: 'Lewis Blue',
     cmyk: '100,85,0,0',
@@ -2432,7 +2700,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 54,
+    colorId: 270,
+    brandID: 2,
     code: 'RV-354',
     name: 'Universe Blue',
     cmyk: '100,80,4,55',
@@ -2441,7 +2710,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 55,
+    colorId: 271,
+    brandID: 2,
     code: 'RV-74',
     name: 'Costa Brava Blue',
     cmyk: '46,15,2,0',
@@ -2450,7 +2720,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 56,
+    colorId: 272,
+    brandID: 2,
     code: 'RV-227',
     name: 'Waimea Blue',
     cmyk: '60, 30, 0, 0',
@@ -2459,7 +2730,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 57,
+    colorId: 273,
+    brandID: 2,
     code: 'RV-228',
     name: 'Zeppelin Blue',
     cmyk: '75,50,0,2',
@@ -2468,7 +2740,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 58,
+    colorId: 274,
+    brandID: 2,
     code: 'RV-229',
     name: 'Andromeda Blue',
     cmyk: '80,70,0,5',
@@ -2477,7 +2750,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 59,
+    colorId: 275,
+    brandID: 2,
     code: 'RV-5002',
     name: 'Ultramarine Blue',
     cmyk: '',
@@ -2486,7 +2760,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 60,
+    colorId: 276,
+    brandID: 2,
     code: 'RV-230',
     name: 'Leviathan Blue',
     cmyk: '100, 100, 0, 60',
@@ -2495,7 +2770,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 70,
+    colorId: 277,
+    brandID: 2,
     code: 'RV-75',
     name: 'Nostromo Blue',
     cmyk: '100, 71, 39, 90',
@@ -2504,7 +2780,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 71,
+    colorId: 278,
+    brandID: 2,
     code: 'RV-13',
     name: 'Himalayan Blue',
     cmyk: '50,0,12,0',
@@ -2513,7 +2790,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 72,
+    colorId: 279,
+    brandID: 2,
     code: 'RV-29',
     name: 'Arctic Blue',
     cmyk: '60,0,3,0',
@@ -2522,7 +2800,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 73,
+    colorId: 280,
+    brandID: 2,
     code: 'RV-8',
     name: 'Carlota Light Blue',
     cmyk: '60,0,4,0',
@@ -2531,7 +2810,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 74,
+    colorId: 281,
+    brandID: 2,
     code: 'RV-217',
     name: 'Avatar Blue',
     cmyk: '90,5,1,0',
@@ -2540,7 +2820,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 75,
+    colorId: 282,
+    brandID: 2,
     code: 'RV-30',
     name: 'Electric Blue',
     cmyk: '100, 32, 0, 23',
@@ -2549,7 +2830,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 76,
+    colorId: 283,
+    brandID: 2,
     code: 'RV-5005',
     name: 'Dark Blue',
     cmyk: '100, 30, 0, 30',
@@ -2558,7 +2840,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 77,
+    colorId: 284,
+    brandID: 2,
     code: 'RV-218',
     name: 'Neptune Blue',
     cmyk: '100, 50, 0, 45',
@@ -2567,7 +2850,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 78,
+    colorId: 285,
+    brandID: 2,
     code: 'RV-355',
     name: 'Fukushima Blue',
     cmyk: '48,0,20,0',
@@ -2576,7 +2860,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 79,
+    colorId: 286,
+    brandID: 2,
     code: 'RV-255',
     name: 'Patagonia Blue',
     cmyk: '',
@@ -2585,7 +2870,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 80,
+    colorId: 287,
+    brandID: 2,
     code: 'RV-231',
     name: 'Cousteau Blue',
     cmyk: '73,0,2,22',
@@ -2594,7 +2880,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 81,
+    colorId: 288,
+    brandID: 2,
     code: 'RV-232',
     name: 'Glacier Blue',
     cmyk: '90,0,31,6',
@@ -2603,7 +2890,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 82,
+    colorId: 289,
+    brandID: 2,
     code: 'RV-14',
     name: 'Planet Blue',
     cmyk: '100, 0, 27, 24',
@@ -2612,7 +2900,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 83,
+    colorId: 290,
+    brandID: 2,
     code: 'RV-233',
     name: 'Christiania Blue',
     cmyk: '100, 30, 40, 26',
@@ -2621,7 +2910,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 84,
+    colorId: 291,
+    brandID: 2,
     code: 'RV-234',
     name: 'Indigo Blue',
     cmyk: '100, 36, 45, 53',
@@ -2630,7 +2920,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 85,
+    colorId: 292,
+    brandID: 2,
     code: 'RV-356',
     name: 'Vintage Blue',
     cmyk: '45,0,22,0',
@@ -2639,7 +2930,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 86,
+    colorId: 293,
+    brandID: 2,
     code: 'RV-357',
     name: 'Iceberg Blue',
     cmyk: '58,0,30,0',
@@ -2648,7 +2940,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 87,
+    colorId: 294,
+    brandID: 2,
     code: 'RV-358',
     name: 'Water Lily Blue',
     cmyk: '60,0,33,10',
@@ -2657,7 +2950,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 88,
+    colorId: 295,
+    brandID: 2,
     code: 'RV-359',
     name: 'Mururoa Blue',
     cmyk: '85,5,40,20',
@@ -2666,7 +2960,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 89,
+    colorId: 296,
+    brandID: 2,
     code: 'RV-5021',
     name: 'Caribbean Blue',
     cmyk: '84,8,40,29',
@@ -2675,7 +2970,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 90,
+    colorId: 297,
+    brandID: 2,
     code: 'RV-360',
     name: 'Major Blue',
     cmyk: '75,18,40,50',
@@ -2684,7 +2980,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 91,
+    colorId: 298,
+    brandID: 2,
     code: 'RV-5020',
     name: 'Ocean Blue',
     cmyk: '89,22,34,66',
@@ -2693,7 +2990,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 92,
+    colorId: 299,
+    brandID: 2,
     code: 'RV-361',
     name: 'Potosi Green',
     cmyk: '40,0,28,0',
@@ -2702,7 +3000,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 93,
+    colorId: 300,
+    brandID: 2,
     code: 'RV-254',
     name: 'Max Green',
     cmyk: '27,0,15,0',
@@ -2711,7 +3010,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 94,
+    colorId: 301,
+    brandID: 2,
     code: 'RV-219',
     name: 'Paris Green',
     cmyk: '55,0,40,0',
@@ -2720,7 +3020,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 95,
+    colorId: 302,
+    brandID: 2,
     code: 'RV-220',
     name: 'UFO Green',
     cmyk: '65,0,45,0',
@@ -2729,7 +3030,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 96,
+    colorId: 303,
+    brandID: 2,
     code: 'RV-21',
     name: 'Surgical Green',
     cmyk: '100, 0, 66, 0',
@@ -2738,7 +3040,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 97,
+    colorId: 304,
+    brandID: 2,
     code: 'RV-6016',
     name: 'Dark Green',
     cmyk: '100, 0, 80, 15',
@@ -2747,7 +3050,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 98,
+    colorId: 305,
+    brandID: 2,
     code: 'RV-221',
     name: 'Persephone Green',
     cmyk: '73, 0, 82, 59',
@@ -2756,7 +3060,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 99,
+    colorId: 306,
+    brandID: 2,
     code: 'RV-24',
     name: 'Golden Green',
     cmyk: '45,0,50,0',
@@ -2765,7 +3070,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 100,
+    colorId: 307,
+    brandID: 2,
     code: 'RV-4',
     name: 'Light Green',
     cmyk: '60,0,81,0',
@@ -2774,7 +3080,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 101,
+    colorId: 308,
+    brandID: 2,
     code: 'RV-34',
     name: 'Guacamole Green',
     cmyk: '56,0,78,0',
@@ -2783,7 +3090,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 102,
+    colorId: 309,
+    brandID: 2,
     code: 'RV-6018',
     name: 'Valley Green',
     cmyk: '61, 10, 100, 15',
@@ -2792,7 +3100,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 103,
+    colorId: 310,
+    brandID: 2,
     code: 'RV-237',
     name: 'Cologno N. Green',
     cmyk: '50, 5, 10, 38',
@@ -2801,7 +3110,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 104,
+    colorId: 311,
+    brandID: 2,
     code: 'RV-5',
     name: 'Lutecia Green',
     cmyk: '90, 12, 95, 40',
@@ -2810,7 +3120,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 105,
+    colorId: 312,
+    brandID: 2,
     code: 'RV-6009',
     name: 'Amazonas Green',
     cmyk: '66, 0, 57, 82',
@@ -2819,7 +3130,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 106,
+    colorId: 313,
+    brandID: 2,
     code: 'RV-235',
     name: 'Poison Green',
     cmyk: '20,0,85,O',
@@ -2828,7 +3140,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 107,
+    colorId: 314,
+    brandID: 2,
     code: 'RV-235',
     name: 'Poison Green',
     cmyk: '20,0,85,O',
@@ -2837,7 +3150,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 108,
+    colorId: 315,
+    brandID: 2,
     code: 'RV-236',
     name: 'Mojito Green',
     cmyk: '25,0,95,0',
@@ -2846,7 +3160,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 109,
+    colorId: 316,
+    brandID: 2,
     code: 'RV-16',
     name: 'Pistachio Green',
     cmyk: '40,4,85,0',
@@ -2855,7 +3170,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 110,
+    colorId: 317,
+    brandID: 2,
     code: 'RV-362',
     name: 'Mantis Green',
     cmyk: '58,0,65,0',
@@ -2864,7 +3180,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 111,
+    colorId: 318,
+    brandID: 2,
     code: 'RV-272',
     name: 'Mint Green',
     cmyk: '65,0,75,0',
@@ -2873,7 +3190,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 112,
+    colorId: 319,
+    brandID: 2,
     code: 'RV-363',
     name: 'Natura Green',
     cmyk: '100,0,90,0',
@@ -2882,7 +3200,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 113,
+    colorId: 320,
+    brandID: 2,
     code: 'RV-364',
     name: 'Reggae Green',
     cmyk: '98,6,80,40',
@@ -2891,7 +3210,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 114,
+    colorId: 321,
+    brandID: 2,
     code: 'RV-6019',
     name: 'Pale Green',
     cmyk: '26,0,42,0',
@@ -2900,7 +3220,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 115,
+    colorId: 322,
+    brandID: 2,
     code: 'RV-253',
     name: 'Element Green',
     cmyk: '25,4,44,3',
@@ -2909,7 +3230,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 116,
+    colorId: 323,
+    brandID: 2,
     code: 'RV-15',
     name: 'Apple Green',
     cmyk: '20, 0, 47, 28',
@@ -2918,7 +3240,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 117,
+    colorId: 324,
+    brandID: 2,
     code: 'RV-250',
     name: 'Rambo Green',
     cmyk: '23, 0, 60, 42',
@@ -2927,7 +3250,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 118,
+    colorId: 325,
+    brandID: 2,
     code: 'RV-250',
     name: 'Rambo Green',
     cmyk: '23, 0, 60, 42',
@@ -2936,7 +3260,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 119,
+    colorId: 326,
+    brandID: 2,
     code: 'RV-6013',
     name: 'Khaki Green',
     cmyk: '28, 0, 64, 55',
@@ -2945,7 +3270,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 120,
+    colorId: 327,
+    brandID: 2,
     code: 'RV-6003',
     name: 'Olive Green',
     cmyk: '28, 0, 64, 79',
@@ -2954,7 +3280,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 121,
+    colorId: 328,
+    brandID: 2,
     code: 'RV-251',
     name: 'Forest Green',
     cmyk: '24, 0, 61, 68',
@@ -2963,7 +3290,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 122,
+    colorId: 329,
+    brandID: 2,
     code: 'RV-246',
     name: 'Druide Brown',
     cmyk: '8,20,45,0',
@@ -2972,7 +3300,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 123,
+    colorId: 330,
+    brandID: 2,
     code: 'RV-247',
     name: 'Tepuy Brown',
     cmyk: '15, 33, 58, 0',
@@ -2981,7 +3310,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 124,
+    colorId: 331,
+    brandID: 2,
     code: 'RV-248',
     name: 'Baobab Brown',
     cmyk: '23, 76, 41, 0',
@@ -2990,7 +3320,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 125,
+    colorId: 332,
+    brandID: 2,
     code: 'RV-249',
     name: 'Greyound Brown',
     cmyk: '37, 58, 82, 0',
@@ -2999,7 +3330,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 126,
+    colorId: 333,
+    brandID: 2,
     code: 'RV-8002',
     name: 'Toasted Brown',
     cmyk: '0, 52, 70, 55',
@@ -3008,7 +3340,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 127,
+    colorId: 334,
+    brandID: 2,
     code: 'RV-8017',
     name: 'Tobacco Brown',
     cmyk: '0, 60, 100, 79',
@@ -3017,7 +3350,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 128,
+    colorId: 335,
+    brandID: 2,
     code: 'RV-35',
     name: 'Chocolate Brown',
     cmyk: '37, 53, 68, 83',
@@ -3026,7 +3360,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 129,
+    colorId: 336,
+    brandID: 2,
     code: 'RV-365',
     name: 'Puchineli White',
     cmyk: '2,2,20,0',
@@ -3035,7 +3370,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 130,
+    colorId: 337,
+    brandID: 2,
     code: 'RV-1013',
     name: 'Bone White',
     cmyk: '0,2,15,0',
@@ -3044,7 +3380,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 131,
+    colorId: 338,
+    brandID: 2,
     code: 'RV-55',
     name: 'Arkalis Grey',
     cmyk: '3,4,14,8',
@@ -3053,7 +3390,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 132,
+    colorId: 339,
+    brandID: 2,
     code: 'RV-57',
     name: 'City Grey',
     cmyk: '7,14,20,21',
@@ -3062,7 +3400,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 133,
+    colorId: 340,
+    brandID: 2,
     code: 'RV-42',
     name: 'Regina Grey',
     cmyk: '12,20,30,27',
@@ -3071,7 +3410,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 134,
+    colorId: 341,
+    brandID: 2,
     code: 'RV-40',
     name: 'Nazgul Grey',
     cmyk: '16,23,23,44',
@@ -3080,7 +3420,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 135,
+    colorId: 342,
+    brandID: 2,
     code: 'RV-39',
     name: 'Ripley Grey',
     cmyk: '30,23,20,45',
@@ -3089,7 +3430,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 136,
+    colorId: 343,
+    brandID: 2,
     code: 'RV-6',
     name: 'Light Grey',
     cmyk: '14, 9, 9, 23',
@@ -3098,7 +3440,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 137,
+    colorId: 344,
+    brandID: 2,
     code: 'RV-366',
     name: 'Squatter Grey',
     cmyk: '11,8,8,21',
@@ -3107,7 +3450,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 138,
+    colorId: 345,
+    brandID: 2,
     code: 'RV-262',
     name: 'Matter Grey',
     cmyk: '14, 9, 9, 23',
@@ -3116,7 +3460,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 139,
+    colorId: 346,
+    brandID: 2,
     code: 'RV-7040',
     name: 'Pearl Grey',
     cmyk: '0, 0, 0,65',
@@ -3125,7 +3470,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 140,
+    colorId: 347,
+    brandID: 2,
     code: 'RV-7031',
     name: 'Dark Grey',
     cmyk: '0, 0, 0, 76',
@@ -3134,7 +3480,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 141,
+    colorId: 348,
+    brandID: 2,
     code: 'RV-263',
     name: 'Sputnik Grey',
     cmyk: '41, 28, 22, 70',
@@ -3143,7 +3490,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 142,
+    colorId: 349,
+    brandID: 2,
     code: 'RV-7016',
     name: 'Anthracite Grey',
     cmyk: '0, 0, 0, 87',
@@ -3152,7 +3500,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 143,
+    colorId: 350,
+    brandID: 2,
     code: 'RV-9010',
     name: 'Divinity White',
     cmyk: '0, 0, 0, 0',
@@ -3161,7 +3510,8 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 144,
+    colorId: 351,
+    brandID: 2,
     code: 'RV-9011',
     name: 'Gloss Black',
     cmyk: '0, 0, 0, 100',
@@ -3170,36 +3520,38 @@ export const colorsHardcore = [
   },
 
   {
-    colorId: 145,
+    colorId: 352,
+    brandID: 2,
     code: 'Silver Chrome',
     name: 'Silver Chrome',
     cmyk: '',
-    hex: '',
+    hex: '#727171',
     pantone: '',
   },
 
   {
-    colorId: 146,
+    colorId: 353,
+    brandID: 2,
     code: 'Metallic Gold',
     name: 'Metallic Gold',
     cmyk: '',
-    hex: '',
+    hex: '#D4AF37',
     pantone: '',
   },
 
   {
-    colorId: 147,
+    colorId: 354,
+    brandID: 2,
     code: 'Metallic Copper',
     name: 'Metallic Copper',
     cmyk: '',
-    hex: '',
+    hex: '#B87333',
     pantone: '',
   },
-];
 
-export const colorsMegaC = [
   {
-    colorId: 1,
+    colorId: 355,
+    brandID: 3,
     code: 'RV-1021',
     name: 'Light Yellow',
     cmyk: '0, 8, 95, 0',
@@ -3208,7 +3560,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 2,
+    colorId: 356,
+    brandID: 3,
     code: 'RV-2003',
     name: 'Pastel Orange',
     cmyk: '0,65,60,0',
@@ -3217,7 +3570,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 3,
+    colorId: 357,
+    brandID: 3,
     code: 'RV-3020',
     name: 'Light Red',
     cmyk: '0,90,85,0',
@@ -3226,7 +3580,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 4,
+    colorId: 358,
+    brandID: 3,
     code: 'RV-3004',
     name: 'Bordeaux Red',
     cmyk: '27, 100, 93, 40',
@@ -3235,7 +3590,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 5,
+    colorId: 359,
+    brandID: 3,
     code: 'RV-211',
     name: 'Love Pink',
     cmyk: '0,60,4,0',
@@ -3244,7 +3600,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 6,
+    colorId: 360,
+    brandID: 3,
     code: 'RV-4010',
     name: 'Magenta',
     cmyk: '5,95,43,0',
@@ -3253,7 +3610,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 7,
+    colorId: 361,
+    brandID: 3,
     code: 'RV-225',
     name: 'Geisha Violet',
     cmyk: '25,75,9,0',
@@ -3262,7 +3620,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 8,
+    colorId: 362,
+    brandID: 3,
     code: 'RV-214',
     name: 'Violet',
     cmyk: '46,44,0,0',
@@ -3271,7 +3630,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 9,
+    colorId: 363,
+    brandID: 3,
     code: 'RV-216',
     name: 'Anonymous Violet',
     cmyk: '80, 85, 0, 21',
@@ -3280,7 +3640,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 10,
+    colorId: 364,
+    brandID: 3,
     code: 'RV-8',
     name: 'Light Blue',
     cmyk: '60,0,4,0',
@@ -3289,7 +3650,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 11,
+    colorId: 365,
+    brandID: 3,
     code: 'RV-30',
     name: 'Electric Blue',
     cmyk: '100, 30, 0, 2',
@@ -3298,7 +3660,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 12,
+    colorId: 366,
+    brandID: 3,
     code: 'RV-5005',
     name: 'Dark Blue',
     cmyk: '100, 30, 0, 30',
@@ -3307,7 +3670,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 13,
+    colorId: 367,
+    brandID: 3,
     code: 'RV-219',
     name: 'Paris Green',
     cmyk: '55,0,40,0',
@@ -3316,7 +3680,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 14,
+    colorId: 368,
+    brandID: 3,
     code: 'RV-21',
     name: 'Surgical Green',
     cmyk: '100, 0, 66, 0',
@@ -3325,7 +3690,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 15,
+    colorId: 369,
+    brandID: 3,
     code: 'RV-34',
     name: 'Guacamole Green',
     cmyk: '55, 10, 82, 0',
@@ -3334,7 +3700,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 16,
+    colorId: 370,
+    brandID: 3,
     code: 'RV-5',
     name: 'Lutecia Green',
     cmyk: '90, 12, 95, 40',
@@ -3343,7 +3710,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 17,
+    colorId: 371,
+    brandID: 3,
     code: 'RV-8002',
     name: 'Toasted Brown',
     cmyk: '0, 52, 70, 55',
@@ -3352,7 +3720,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 18,
+    colorId: 372,
+    brandID: 3,
     code: 'RV-9010',
     name: 'White',
     cmyk: '',
@@ -3361,7 +3730,8 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 19,
+    colorId: 373,
+    brandID: 3,
     code: 'RV-7040',
     name: 'Pearl Grey',
     cmyk: '0, 0, 0, 65',
@@ -3370,18 +3740,18 @@ export const colorsMegaC = [
   },
 
   {
-    colorId: 20,
+    colorId: 374,
+    brandID: 3,
     code: 'RV-9011',
     name: 'Black',
     cmyk: '',
     hex: '#1a171b',
     pantone: '',
   },
-];
 
-export const colorsNitro2g = [
   {
-    colorId: 1,
+    colorId: 375,
+    brandID: 5,
     code: 'RV-1021',
     name: 'Light Yellow',
     cmyk: '0, 15, 100, 0',
@@ -3390,7 +3760,8 @@ export const colorsNitro2g = [
   },
 
   {
-    colorId: 2,
+    colorId: 376,
+    brandID: 5,
     code: 'RV-2004',
     name: 'Orange',
     cmyk: '0,49,66,0',
@@ -3399,7 +3770,8 @@ export const colorsNitro2g = [
   },
 
   {
-    colorId: 3,
+    colorId: 377,
+    brandID: 5,
     code: 'RV-3001',
     name: 'Vivid Red',
     cmyk: '0, 100, 99, 4',
@@ -3408,7 +3780,8 @@ export const colorsNitro2g = [
   },
 
   {
-    colorId: 4,
+    colorId: 378,
+    brandID: 5,
     code: 'RV-27',
     name: 'Vampire Violet',
     cmyk: '100, 100, 0, 58',
@@ -3417,7 +3790,8 @@ export const colorsNitro2g = [
   },
 
   {
-    colorId: 5,
+    colorId: 379,
+    brandID: 5,
     code: 'RV-8',
     name: 'Light Blue',
     cmyk: '',
@@ -3426,7 +3800,8 @@ export const colorsNitro2g = [
   },
 
   {
-    colorId: 6,
+    colorId: 380,
+    brandID: 5,
     code: 'RV-5013',
     name: 'Navy Blue',
     cmyk: '100, 68, 0, 54',
@@ -3435,7 +3810,8 @@ export const colorsNitro2g = [
   },
 
   {
-    colorId: 7,
+    colorId: 381,
+    brandID: 5,
     code: 'RV-34',
     name: 'Guacamole Green',
     cmyk: '56,0,78,0',
@@ -3444,7 +3820,8 @@ export const colorsNitro2g = [
   },
 
   {
-    colorId: 8,
+    colorId: 382,
+    brandID: 5,
     code: 'RV-9011',
     name: 'Black',
     cmyk: '',
@@ -3453,7 +3830,8 @@ export const colorsNitro2g = [
   },
 
   {
-    colorId: 9,
+    colorId: 383,
+    brandID: 5,
     code: 'RV-9010',
     name: 'White',
     cmyk: '',
@@ -3462,18 +3840,18 @@ export const colorsNitro2g = [
   },
 
   {
-    colorId: 10,
+    colorId: 384,
+    brandID: 5,
     code: 'Silver',
     name: 'Silver',
     cmyk: '',
-    hex: '',
+    hex: '#727171',
     pantone: '',
   },
-];
 
-export const colorsMaximo = [
   {
-    colorId: 1,
+    colorId: 385,
+    brandID: 6,
     code: 'RV-9011',
     name: 'Black',
     cmyk: '',
@@ -3482,7 +3860,8 @@ export const colorsMaximo = [
   },
 
   {
-    colorId: 2,
+    colorId: 386,
+    brandID: 6,
     code: 'RV-9010',
     name: 'White',
     cmyk: '',
@@ -3491,18 +3870,18 @@ export const colorsMaximo = [
   },
 
   {
-    colorId: 3,
+    colorId: 387,
+    brandID: 6,
     code: 'Silver',
     name: 'Silver',
     cmyk: '',
-    hex: '',
+    hex: '#727171',
     pantone: '',
   },
-];
 
-export const colorsMadmax = [
   {
-    colorId: 1,
+    colorId: 388,
+    brandID: 6,
     code: 'RV-9011',
     name: 'Black',
     cmyk: '',
@@ -3511,16 +3890,18 @@ export const colorsMadmax = [
   },
 
   {
-    colorId: 2,
+    colorId: 389,
+    brandID: 6,
     code: 'Silver',
     name: 'Silver',
     cmyk: '',
-    hex: '',
+    hex: '#727171',
     pantone: '',
   },
 
   {
-    colorId: 3,
+    colorId: 390,
+    brandID: 6,
     code: 'RV-1021',
     name: 'Light Yellow',
     cmyk: '9, 6, 96, 0',
@@ -3529,7 +3910,8 @@ export const colorsMadmax = [
   },
 
   {
-    colorId: 4,
+    colorId: 391,
+    brandID: 6,
     code: 'RV-3001',
     name: 'Light Red',
     cmyk: '26, 99, 78, 1',
@@ -3538,7 +3920,8 @@ export const colorsMadmax = [
   },
 
   {
-    colorId: 5,
+    colorId: 392,
+    brandID: 6,
     code: 'RV-216',
     name: 'Anonymous Violet',
     cmyk: '99, 100, 18, 0',
@@ -3547,7 +3930,8 @@ export const colorsMadmax = [
   },
 
   {
-    colorId: 6,
+    colorId: 393,
+    brandID: 6,
     code: 'RV-30',
     name: 'Electric Blue',
     cmyk: '92, 63, 26, 0',
@@ -3556,7 +3940,8 @@ export const colorsMadmax = [
   },
 
   {
-    colorId: 7,
+    colorId: 394,
+    brandID: 6,
     code: 'RV-219',
     name: 'Paris Green',
     cmyk: '70, 7, 40, 0',
@@ -3565,18 +3950,18 @@ export const colorsMadmax = [
   },
 
   {
-    colorId: 8,
+    colorId: 395,
+    brandID: 6,
     code: 'RV-9010',
     name: 'White',
     cmyk: '0, 0, 0, 0',
     hex: '#ffffff',
     pantone: '',
   },
-];
 
-export const colorsAlien = [
   {
-    colorId: 1,
+    colorId: 396,
+    brandID: 10,
     code: 'RV-9011',
     name: 'Black',
     cmyk: '',
@@ -3585,18 +3970,18 @@ export const colorsAlien = [
   },
 
   {
-    colorId: 2,
+    colorId: 397,
+    brandID: 10,
     code: 'RV-9010',
     name: 'Divinity White',
     cmyk: '',
     hex: '#FFFFFF',
     pantone: '',
   },
-];
 
-export const colorsPocket = [
   {
-    colorId: 1,
+    colorId: 398,
+    brandID: 9,
     code: 'Light Yellow',
     name: 'Light Yellow',
     cmyk: '0, 1, 100, 0',
@@ -3605,7 +3990,8 @@ export const colorsPocket = [
   },
 
   {
-    colorId: 2,
+    colorId: 399,
+    brandID: 9,
     code: 'Light Red',
     name: 'Light Red',
     cmyk: '0,90,85,0',
@@ -3614,7 +4000,8 @@ export const colorsPocket = [
   },
 
   {
-    colorId: 3,
+    colorId: 400,
+    brandID: 9,
     code: 'Electric Blue',
     name: 'Electric Blue',
     cmyk: '100, 32, 0, 23',
@@ -3623,16 +4010,18 @@ export const colorsPocket = [
   },
 
   {
-    colorId: 4,
+    colorId: 401,
+    brandID: 9,
     code: 'Silver',
     name: 'Silver',
     cmyk: '',
-    hex: '',
+    hex: '#727171',
     pantone: '',
   },
 
   {
-    colorId: 5,
+    colorId: 402,
+    brandID: 9,
     code: 'White',
     name: 'White',
     cmyk: '0.0.0.0',
@@ -3641,18 +4030,18 @@ export const colorsPocket = [
   },
 
   {
-    colorId: 6,
+    colorId: 403,
+    brandID: 9,
     code: 'Black',
     name: 'Black',
     cmyk: '0.0.0.100',
     hex: '#000000',
     pantone: '',
   },
-];
 
-export const colorsMarcadores = [
   {
-    colorId: 1,
+    colorId: 404,
+    brandID: 12,
     code: 'Black',
     name: 'Black',
     cmyk: '80,91,84,74',
@@ -3661,7 +4050,8 @@ export const colorsMarcadores = [
   },
 
   {
-    colorId: 2,
+    colorId: 405,
+    brandID: 12,
     code: 'White',
     name: 'White',
     cmyk: '0,0,0,0',
@@ -3670,7 +4060,8 @@ export const colorsMarcadores = [
   },
 
   {
-    colorId: 3,
+    colorId: 406,
+    brandID: 12,
     code: 'Red',
     name: 'Red',
     cmyk: '10,98,100,0',
@@ -3679,7 +4070,8 @@ export const colorsMarcadores = [
   },
 
   {
-    colorId: 4,
+    colorId: 407,
+    brandID: 12,
     code: 'Silver',
     name: 'Silver',
     cmyk: '63,55,52,1',

@@ -66,6 +66,7 @@ export const products = [
   {
     id: 1,
     categoryID: 1,
+    brandID: 1,
     cover: '/images/shop/latas/mtn-94.png',
     title: '94',
     author: 'Montana',
@@ -78,6 +79,7 @@ export const products = [
   {
     id: 2,
     categoryID: 1,
+    brandID: 2,
     cover: '/images/shop/latas/hardcore.png',
     title: 'Hardcore',
     author: 'Montana',
@@ -90,6 +92,7 @@ export const products = [
   {
     id: 3,
     categoryID: 1,
+    brandID: 3,
     cover: '/images/shop/latas/megacolors.png',
     title: 'Mega Colors',
     author: 'Montana',
@@ -103,6 +106,7 @@ export const products = [
   {
     id: 4,
     categoryID: 1,
+    brandID: 4,
     cover: '/images/shop/latas/megasilver.png',
     title: 'Mega Silver',
     author: 'Montana',
@@ -116,6 +120,7 @@ export const products = [
   {
     id: 5,
     categoryID: 1,
+    brandID: 5,
     cover: '/images/shop/latas/nitro2g.png',
     title: 'Nitro 2G',
     author: 'Montana',
@@ -128,6 +133,7 @@ export const products = [
   {
     id: 6,
     categoryID: 1,
+    brandID: 6,
     cover: '/images/shop/latas/maximo.png',
     title: 'Maximo',
     author: 'Montana',
@@ -140,6 +146,7 @@ export const products = [
   {
     id: 7,
     categoryID: 1,
+    brandID: 6,
     cover: '/images/shop/latas/madmax.png',
     title: 'Mad Maxxx',
     author: 'Montana',
@@ -152,6 +159,7 @@ export const products = [
   {
     id: 8,
     categoryID: 1,
+    brandID: 7,
     cover: '/images/shop/latas/krink.png',
     title: 'Krink K-750',
     author: 'Montana',
@@ -165,6 +173,7 @@ export const products = [
   {
     id: 9,
     categoryID: 1,
+    brandID: 8,
     cover: '/images/shop/latas/micro.png',
     title: 'Micro',
     author: 'Montana',
@@ -177,6 +186,7 @@ export const products = [
   {
     id: 10,
     categoryID: 1,
+    brandID: 9,
     cover: '/images/shop/latas/pocket.png',
     title: 'Pocket',
     author: 'Montana',
@@ -189,6 +199,7 @@ export const products = [
   {
     id: 11,
     categoryID: 1,
+    brandID: 10,
     cover: '/images/shop/latas/alien.png',
     title: 'Alien',
     author: 'Montana',
@@ -202,6 +213,7 @@ export const products = [
   {
     id: 12,
     categoryID: 1,
+    brandID: 11,
     cover: '/images/shop/latas/pack.png',
     title: 'Workshop Pack 16',
     author: 'Montana',
@@ -215,6 +227,7 @@ export const products = [
   {
     id: 13,
     categoryID: 2,
+    brandID: 12,
     cover: '/images/shop/marcadores/acrylic-marcador-30.png',
     title: 'Marcador Acrílico 30mm',
     author: 'Montana',
@@ -227,6 +240,7 @@ export const products = [
   {
     id: 14,
     categoryID: 2,
+    brandID: 12,
     cover: '/images/shop/marcadores/acrylic-marcador-50.png',
     title: 'Marcador Acrílico 50mm',
     author: 'Montana',
@@ -239,6 +253,7 @@ export const products = [
   {
     id: 15,
     categoryID: 2,
+    brandID: 12,
     cover: '/images/shop/marcadores/squeezer_grog.png',
     title: 'Squeezer Grog 25 FMP',
     author: 'Grog',
@@ -252,6 +267,7 @@ export const products = [
   {
     id: 16,
     categoryID: 4,
+    brandID: 13,
     cover: '/images/shop/shops-11.png',
     title: 'Grog Buff Proof Ink',
     author: 'Grog',
@@ -265,6 +281,7 @@ export const products = [
   {
     id: 17,
     categoryID: 4,
+    brandID: 13,
     cover: '/images/shop/shops-12.png',
     title: "Nero D'inferno",
     author: 'Nero',
@@ -278,6 +295,7 @@ export const products = [
   {
     id: 18,
     categoryID: 5,
+    brandID: 14,
     cover: '/images/shop/caps/astrofat.png',
     title: 'Astro fat Caps',
     author: 'Montana',
@@ -290,6 +308,7 @@ export const products = [
   {
     id: 19,
     categoryID: 5,
+    brandID: 14,
     cover: '/images/shop/caps/pinkfat.png',
     title: 'Fat Pink Caps',
     author: 'Montana',
@@ -302,6 +321,7 @@ export const products = [
   {
     id: 20,
     categoryID: 5,
+    brandID: 14,
     cover: '/images/shop/caps/hardcore-medium.png',
     title: 'Hardcore Medium Caps',
     author: 'Montana',
@@ -314,6 +334,7 @@ export const products = [
   {
     id: 21,
     categoryID: 5,
+    brandID: 14,
     cover: '/images/shop/caps/hardcore-fat-cap.png',
     title: 'Hardcore Fat Caps',
     author: 'Montana',
@@ -326,6 +347,7 @@ export const products = [
   {
     id: 22,
     categoryID: 5,
+    brandID: 14,
     cover: '/images/shop/caps/lego-cap.png',
     title: 'Lego Caps',
     author: 'Montana',
@@ -338,6 +360,7 @@ export const products = [
   {
     id: 23,
     categoryID: 5,
+    brandID: 14,
     cover: '/images/shop/caps/hardcore-medium.png',
     title: 'Hardcore Medium Caps',
     author: 'Montana',
@@ -350,6 +373,7 @@ export const products = [
   {
     id: 24,
     categoryID: 5,
+    brandID: 14,
     cover: '/images/shop/caps/ny-fat.png',
     title: 'NY Fat Caps',
     author: 'Montana',
@@ -362,6 +386,7 @@ export const products = [
   {
     id: 25,
     categoryID: 5,
+    brandID: 14,
     cover: '/images/shop/caps/pocket-fat.png',
     title: 'Pocket Fat Caps',
     author: 'Montana',
@@ -374,6 +399,7 @@ export const products = [
   {
     id: 26,
     categoryID: 5,
+    brandID: 14,
     cover: '/images/shop/caps/pro-cap.png',
     title: 'Pro Caps',
     author: 'Montana',
@@ -386,6 +412,7 @@ export const products = [
   {
     id: 27,
     categoryID: 5,
+    brandID: 14,
     cover: '/images/shop/caps/superskinny.png',
     title: 'Super Skinny Caps',
     author: 'Montana',
@@ -398,6 +425,7 @@ export const products = [
   {
     id: 28,
     categoryID: 5,
+    brandID: 14,
     cover: '/images/shop/caps/transversal.png',
     title: 'Transversal Caps',
     author: 'Montana',
@@ -410,6 +438,7 @@ export const products = [
   {
     id: 29,
     categoryID: 5,
+    brandID: 14,
     cover: '/images/shop/caps/universal.png',
     title: 'Universal Caps',
     author: 'Montana',
@@ -421,6 +450,7 @@ export const products = [
 
   {
     id: 30,
+    brandID: 15,
     cover: '/images/shop/acessorios/handcleaner.png',
     title: 'Hand Cleaner',
     author: 'Montana',
@@ -434,6 +464,7 @@ export const products = [
   {
     id: 31,
     categoryID: 3,
+    brandID: 15,
     cover: '/images/shop/acessorios/mtn-pro-gloves.png',
     title: 'Luvas Pano',
     author: 'Montana',
@@ -446,6 +477,7 @@ export const products = [
   {
     id: 32,
     categoryID: 3,
+    brandID: 15,
     cover: '/images/shop/acessorios/nitril_gloves.png',
     title: 'Luvas Descartáveis',
     author: 'Montana',
@@ -458,6 +490,7 @@ export const products = [
   {
     id: 33,
     categoryID: 3,
+    brandID: 15,
     cover: '/images/shop/acessorios/mute.png',
     title: 'Mute',
     author: 'Montana',

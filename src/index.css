@@ -44,7 +44,7 @@ header.active {
 }
 
 .active {
-  color: #006eff;
+  color: #2011d7;
 }
 
 header .container,
@@ -100,7 +100,7 @@ header .right_user .heIcon {
     width: 40px;
     height: 40px;
     background: #fff;
-    color: #006eff;
+    color: #2011d7;
     border-radius: 50%;
     padding: 8px;
     z-index: 999999;
@@ -158,7 +158,7 @@ a {
 }
 
 a:hover {
-  color: #006eff;
+  color: #2011d7;
   transition: 0.5s ease-in-out;
 }
 
@@ -190,7 +190,7 @@ a:hover {
 }
 
 .hero h1 span {
-  color: #006eff;
+  color: #2011d7;
   font-size: 40px;
 }
 
@@ -268,7 +268,6 @@ body::after {
 .itemCards .card:hover {
   background-image: url('../public/images/black-spray-paint.jpg');
   background-repeat: no-repeat;
-  cursor: pointer;
 }
 
 .itemCards .card img {
@@ -346,6 +345,10 @@ body::after {
   cursor: pointer;
 }
 
+.itemCards button {
+  cursor: pointer;
+}
+
 .overlay button {
   opacity: 0;
   transform: translateY(20px);
@@ -366,12 +369,11 @@ body::after {
   transform: translateY(0);
 }
 
-.img:hover {
+.product .img:hover {
   opacity: 0.8;
   background-image: url(/public/images/bg_test.png);
   background-repeat: no-repeat;
   background-size: cover;
-  cursor: pointer;
 }
 
 .product {
@@ -399,4 +401,72 @@ body::after {
 
 .right_user button:hover {
   transform: scale(1.1);
+}
+
+.hidden {
+  display: none;
+}
+
+.color-box {
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.color-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.color-circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  max-width: 500px;
+  height: 80%;
+  max-height: 100%;
+  overflow: auto;
+  border-radius: 10%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.modal .img:hover {
+  background-image: none;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  font-size: 50px;
 }
