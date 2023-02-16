@@ -46,7 +46,7 @@ body.dark-mode::after {
 }
 
 .dark-mode .hero h1 span {
-  color: #c01616;
+  color: #d61010;
 }
 
 .dark-mode .hero .search {
@@ -63,7 +63,7 @@ body.dark-mode::after {
 }
 
 .dark-mode .active {
-  color: #c01616;
+  color: #d61010;
 }
 
 .dark-mode .product {
@@ -81,4 +81,12 @@ body.dark-mode::after {
 .dark-mode .itemCards .card:hover {
   background-image: url('/public/images/black-spray-paint-black.png');
   background-repeat: no-repeat;
+}
+
+.dark-mode .modal-content {
+  background-color: #5c5c5c;
+}
+
+.dark-mode .close {
+  color: #f6f7f8;
 }

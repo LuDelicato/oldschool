@@ -23,7 +23,7 @@ export const ProductItems = ({ items, brandID }) => {
     <>
       <div className='product_items'>
         {filteredItems.map((item) => (
-          <div className='box' key={item.id}>
+          <div className='box'>
             <div className='img'>
               <img src={item.cover} alt='' onClick={() => handleItemClick(item.id)} />
               <div className='overlay'>
@@ -59,12 +59,14 @@ export const ProductItems = ({ items, brandID }) => {
               <div className='img'>
                 <img src={items.find((item) => item.id === selectedItemId)?.cover} alt='' />
               </div>
+              <br />
               <div className='details'>
                 <p>Marca: {items.find((item) => item.id === selectedItemId)?.author}</p>
                 <h4>Preço: €{items.find((item) => item.id === selectedItemId)?.price}</h4>
                 <p>Descrição: {items.find((item) => item.id === selectedItemId)?.desc}</p>
               </div>
               <div className='color-box'>
+                <br />
                 <div className='color-container'>
                   {colors
                     .filter((color) => color.brandID === items.find((item) => item.id === selectedItemId)?.brandID)

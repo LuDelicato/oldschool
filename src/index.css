@@ -85,58 +85,6 @@ header .right_user .heIcon {
   margin: 0 15px;
 }
 
-@media screen and (max-width: 768px) {
-  header .toggle {
-    display: block;
-    margin-right: 230%;
-  }
-  header .toggle .close {
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 40%;
-    width: 50px;
-    height: 50px;
-    width: 40px;
-    height: 40px;
-    background: #fff;
-    color: #2011d7;
-    border-radius: 50%;
-    padding: 8px;
-    z-index: 999999;
-  }
-  header .center ul {
-    display: none;
-  }
-  header .center .mobile-nav {
-    display: block;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -50px;
-    width: 400px;
-    height: 100vh;
-    background: #f6f7f8;
-    color: #fff;
-    border-radius: 0;
-    padding: 0;
-    padding: 100px 0;
-    z-index: 99999;
-  }
-  header .center .mobile-nav li {
-    margin-top: 25px;
-  }
-  header .center .mobile-nav li a {
-    color: #202020;
-    margin-bottom: 15px;
-    font-size: 30px;
-  }
-  header .right_user,
-  header .right_search {
-    display: none;
-  }
-}
-
 a {
   text-decoration: none;
   background: linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
@@ -247,6 +195,68 @@ body::after {
   z-index: -1;
 }
 
+@media screen and (max-width: 768px) {
+  header .toggle {
+    display: block;
+    margin-right: 230%;
+  }
+  header .toggle .close {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 40%;
+    width: 50px;
+    height: 50px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: #2011d7;
+    border-radius: 50%;
+    padding: 8px;
+    z-index: 999999;
+  }
+  header .center ul {
+    display: none;
+  }
+  header .center .mobile-nav {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 400px;
+    height: 100vh;
+    background: #f6f7f8;
+    color: #fff;
+    border-radius: 0;
+    padding: 0;
+    padding: 100px 0;
+    z-index: 99999;
+  }
+  header .center .mobile-nav li {
+    margin-top: 25px;
+  }
+  header .center .mobile-nav li a {
+    color: #202020;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+  li:hover {
+    color: #2011d7;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+.itemCards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-radius: 10px;
+  padding: 20px;
+  grid-gap: 30px;
+  height: 250px;
+}
+
 .itemCards {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -275,22 +285,23 @@ body::after {
   margin-right: 15px;
 }
 
-@media only screen and (max-width: 768px) {
+.itemCards .card h4 {
+  margin-bottom: -30px;
+}
+
+@media (max-width: 768px) {
   .itemCards {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    height: auto;
+    font-size: 15px;
   }
+}
 
-  .itemCards .card {
-    justify-content: flex-start;
-    flex-direction: row;
-  }
-
-  .itemCards .card img {
-    margin-right: 0;
-  }
-
-  .itemCards .card p {
-    display: none;
+@media (max-width: 480px) {
+  .itemCards {
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    grid-gap: 20px;
   }
 }
 
@@ -309,7 +320,7 @@ body::after {
   display: block;
   background: rgba(219, 218, 218, 0.226);
   border-radius: 5%;
-  width: calc(100% - 40px);
+  max-width: 100%;
   transition: opacity 0.2s ease-in-out;
   opacity: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -418,15 +429,20 @@ body::after {
   flex-wrap: wrap;
   overflow-x: auto;
   scroll-behavior: smooth;
-  width: 100%;
 }
 
 .color-circle {
+  width: 16px;
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  height: 16px;
   border-radius: 50%;
   margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .product_items {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .modal {
@@ -448,6 +464,7 @@ body::after {
 }
 
 .modal-content {
+  display: flex;
   position: relative;
   background-color: #fff;
   border-radius: 5px;
@@ -455,6 +472,15 @@ body::after {
   max-width: 100%;
   max-height: 100%;
   overflow: auto;
+  width: 900px;
+}
+
+.modal .img {
+  position: relative;
+  top: 30px;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .modal .img:hover {
@@ -463,10 +489,44 @@ body::after {
 
 .close {
   position: absolute;
-  top: 10px;
+  top: -10px;
   right: 10px;
   font-size: 24px;
   color: #333;
   cursor: pointer;
   font-size: 50px;
+}
+.details h4,
+p {
+  position: relative;
+  z-index: 1;
+  top: 30px;
+}
+
+.modal-header {
+  font-size: 25px;
+}
+
+@media (max-width: 576px) {
+  .modal {
+    width: 100%;
+    height: 100%;
+  }
+  .modal-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+  .close {
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+  }
+  .details h4,
+  p {
+    top: 20px;
+  }
+  .modal .img {
+    top: 20px;
+  }
 }
