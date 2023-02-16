@@ -90,3 +90,7 @@ body.dark-mode::after {
 .dark-mode .close {
   color: #f6f7f8;
 }
+
+.dark-mode .modal-content {
+  box-shadow: rgba(250, 250, 250, 0.05) 1.95px 1.95px 2.6px;
+}

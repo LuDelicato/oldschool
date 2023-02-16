@@ -234,6 +234,7 @@ body::after {
     z-index: 99999;
   }
   header .center .mobile-nav li {
+    transition: color 0.5s ease-in-out;
     margin-top: 25px;
   }
   header .center .mobile-nav li a {
@@ -242,9 +243,8 @@ body::after {
     font-size: 30px;
   }
 
-  li:hover {
+  header li:hover {
     color: #2011d7;
-    transition: 0.5s ease-in-out;
   }
 }
 
@@ -273,6 +273,7 @@ body::after {
   border-radius: 10px;
   background: rgba(219, 218, 218, 0.226);
   height: 100px;
+  cursor: pointer;
 }
 
 .itemCards .card:hover {
@@ -309,10 +310,12 @@ body::after {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+  padding-top: 30px;
 }
 .box {
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .img {
@@ -353,7 +356,6 @@ body::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
 }
 
 .itemCards button {
@@ -466,13 +468,14 @@ body::after {
 .modal-content {
   display: flex;
   position: relative;
-  background-color: #fff;
+  background: #f6f7f8;
   border-radius: 5px;
   padding: 20px;
   max-width: 100%;
   max-height: 100%;
   overflow: auto;
   width: 900px;
+  box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
 }
 
 .modal .img {
@@ -496,11 +499,20 @@ body::after {
   cursor: pointer;
   font-size: 50px;
 }
-.details h4,
-p {
+.details h4 {
   position: relative;
   z-index: 1;
   top: 30px;
+}
+
+.details p {
+  position: relative;
+  z-index: 1;
+  top: 30px;
+}
+
+.right p {
+  margin-top: 30%;
 }
 
 .modal-header {
@@ -512,21 +524,31 @@ p {
     width: 100%;
     height: 100%;
   }
+
   .modal-content {
     width: 100%;
     max-width: 100%;
     padding: 10px;
   }
+
   .close {
-    top: 10px;
     right: 10px;
-    font-size: 30px;
   }
-  .details h4,
-  p {
+
+  .details h4 {
+    top: 20px;
+  }
+
+  .details p {
     top: 20px;
   }
   .modal .img {
     top: 20px;
   }
+}
+
+.about p {
+  display: block;
+  margin: 10px 0;
+  margin-bottom: 25px;
 }

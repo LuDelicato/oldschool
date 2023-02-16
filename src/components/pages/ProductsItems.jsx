@@ -92,3 +92,4 @@ export const ProductItems = ({ items, brandID }) => {
 // new page
 // stock details in shop
 //colors displaying hex and name
+//tirar os BRs!!!
