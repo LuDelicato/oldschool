@@ -17,8 +17,9 @@ function About() {
       </p>
       <p>
         Acreditamos que a arte tem o poder de transformar e unir comunidades. Por isso, participamos ativamente em
-        projetos educativos e artísticos, como o Projeto Mar em Vila Nova de Gaia. Também colaboramos com escolas e
-        projetos particulares, levando a nossa paixão pela arte urbana a todos os cantos da cidade.
+        projetos educativos e artísticos, e iniciativas como Campeonatos de Beat Box, assim como o Projeto Mar em Vila
+        Nova de Gaia. Também colaboramos com escolas e projetos particulares, levando a nossa paixão pela arte urbana a
+        todos os cantos da cidade.
       </p>
       <p>
         Na Oldschool, queremos que todos se sintam em casa. A nossa loja é um espaço jovem e descontraído, onde a arte,
