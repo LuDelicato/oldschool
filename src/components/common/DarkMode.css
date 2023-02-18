@@ -78,11 +78,6 @@ body.dark-mode::after {
   color: #f6f7f8;
 }
 
-.dark-mode .itemCards .card:hover {
-  background-image: url('/public/images/black-spray-paint-black.png');
-  background-repeat: no-repeat;
-}
-
 .dark-mode .modal-content {
   background-color: #5c5c5c;
 }
@@ -93,4 +88,12 @@ body.dark-mode::after {
 
 .dark-mode .modal-content {
   box-shadow: rgba(250, 250, 250, 0.05) 1.95px 1.95px 2.6px;
+}
+
+.dark-mode .contact-form form {
+  background-color: #202020b7;
+}
+
+.dark-mode .iframe {
+  background-color: #202020b7;
 }

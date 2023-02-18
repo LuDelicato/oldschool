@@ -1,14 +1,20 @@
 export const navbar = [
   {
+    id: 1,
+    text: 'home',
+    path: '/home',
+  },
+
+  {
     id: 2,
-    text: 'loja',
-    path: '/loja',
+    text: 'sobre',
+    path: '/sobre',
   },
 
   {
     id: 3,
-    text: 'sobre',
-    path: '/sobre',
+    text: 'loja',
+    path: '/loja',
   },
 
   {
@@ -19,6 +25,30 @@ export const navbar = [
 
   {
     id: 5,
+    text: 'serviços',
+    path: '/servicos',
+  },
+
+  {
+    id: 6,
+    text: 'projetos',
+    path: '/projetos',
+  },
+
+  {
+    id: 7,
+    text: 'portfolio',
+    path: '/portfolio',
+  },
+
+  {
+    id: 8,
+    text: 'throwback',
+    path: '/throwback',
+  },
+
+  {
+    id: 9,
     text: 'contatos',
     path: '/contatos',
   },

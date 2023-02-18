@@ -257,15 +257,6 @@ body::after {
   height: 250px;
 }
 
-.itemCards {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  border-radius: 10px;
-  padding: 20px;
-  grid-gap: 30px;
-  height: 250px;
-}
-
 .itemCards .card {
   display: flex;
   align-items: center;
@@ -276,11 +267,6 @@ body::after {
   cursor: pointer;
 }
 
-.itemCards .card:hover {
-  background-image: url('../public/images/black-spray-paint.jpg');
-  background-repeat: no-repeat;
-}
-
 .itemCards .card img {
   width: 60px;
   margin-right: 15px;
@@ -288,6 +274,10 @@ body::after {
 
 .itemCards .card h4 {
   margin-bottom: -30px;
+}
+
+.itemCards .card p {
+  margin-bottom: -40px;
 }
 
 @media (max-width: 768px) {
@@ -553,15 +543,22 @@ body::after {
   margin-bottom: 25px;
 }
 
-.contact-form form {
+.contact-form {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact-form form {
   align-items: center;
   margin: 0 auto;
-  max-width: 500px;
+  margin-top: 50px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
+  background-color: #f6f7f893;
+  box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
+  max-width: 500px;
 }
 
 .contact-form label {
@@ -602,4 +599,26 @@ textarea {
 
 .contact-form button[type='submit']:hover {
   background-color: #4d4d4d;
+}
+
+.iframe {
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f6f7f893;
+  box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .iframe {
+    margin-top: 20px;
+  }
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import Iframe from './Iframe';
 
 function Contacts() {
   const [formData, setFormData] = useState({
@@ -22,6 +23,7 @@ function Contacts() {
 
   return (
     <div className='contact-form'>
+      <Iframe />
       <form onSubmit={handleSubmit}>
         <h1>Contata-nos!</h1>
         <p>Aqui podes nos enviar uma mensagem.</p>
