@@ -8,6 +8,7 @@ import Home from './components/pages/Home';
 import Shop from './components/pages/Shop';
 import About from './components/pages/About';
 import Contacts from './components/pages/Contacts';
+import Gallery from './components/pages/Gallery';
 
 function App() {
   return (
@@ -15,9 +16,11 @@ function App() {
       <NavBar />
       <Routes>
         <Route index element={<Home />} />
+        <Route path='home' element={<Home />} />
         <Route path='loja' element={<Shop />} />
         <Route path='sobre' element={<About />} />
         <Route path='contatos' element={<Contacts />} />
+        <Route path='galeria' element={<Gallery />} />
       </Routes>
     </BrowserRouter>
   );
