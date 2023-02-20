@@ -1,51 +1,45 @@
 export const images = [
   {
     id: '1',
-    name: 'Grinder, Porta-chaves e latas de led',
+    name: 'Artigos em Resina',
     cover: 'images/gallery/art-1.jpg',
-    author: 'test',
+    author: 'stay_up_graffiticrafts',
     category: 'art',
     price: 'sob consulta',
     desc: 'test',
+    instagram: 'https://www.instagram.com/stay_up_graffiticrafts/',
   },
 
   {
     id: '2',
-    name: 'Grinder, Porta-chaves e latas de led',
+    name: 'Artigos em Resina',
     cover: 'images/gallery/art-2.jpg',
-    author: 'test',
+    author: 'stay_up_graffiticrafts',
     category: 'art',
     price: 'sob consulta',
     desc: 'test',
+    instagram: 'https://www.instagram.com/stay_up_graffiticrafts/',
   },
 
   {
     id: '3',
     name: 'Quadro Flamingo & Peixe',
     cover: 'images/gallery/art-3.jpg',
-    author: 'test',
+    author: 'RYTH',
     category: 'art',
     price: 'sob consulta',
     desc: 'test',
+    instagram: 'https://www.instagram.com/Hectorperez494/',
   },
 
   {
     id: '4',
-    name: 'Quadro Rosto',
-    cover: 'images/gallery/art-4.jpg',
-    author: 'test',
-    category: 'art',
-    price: 'sob consulta',
-    desc: 'test',
-  },
-
-  {
-    id: '5',
     name: 'Quadro Batman',
     cover: 'images/gallery/art-5.jpg',
-    author: 'test',
+    author: 'VEMS',
     category: 'art',
     price: 'sob consulta',
     desc: 'test',
+    instagram: 'https://www.instagram.com/vems_artwork/',
   },
 ];

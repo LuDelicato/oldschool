@@ -6,9 +6,15 @@ body.dark-mode {
 body.dark-mode::after {
   background-color: #202020;
   color: #f6f7f8;
-  background-image: url('/public/images/bg_test3.png');
+  background-image: url(/public/images/black_header.png);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media (max-width: 768px) {
+  body.dark-mode::after {
+    background-size: cover;
+  }
 }
 
 .dark-mode header.active {
@@ -50,7 +56,7 @@ body.dark-mode::after {
 }
 
 .dark-mode .hero .search {
-  background: #202020;
+  background: #b8b8b8;
   color: #f6f7f8;
 }
 
@@ -96,4 +102,8 @@ body.dark-mode::after {
 
 .dark-mode .iframe {
   background-color: #202020b7;
+}
+.dark-mode .footer {
+  background-image: url(/public/images/black_footer.png);
+  background-size: cover;
 }

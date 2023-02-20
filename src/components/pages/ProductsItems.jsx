@@ -23,7 +23,7 @@ export const ProductItems = ({ items, brandID }) => {
     <>
       <div className='product_items'>
         {filteredItems.map((item) => (
-          <div className='box'>
+          <div className='box' key={item.id}>
             <div className='img'>
               <img src={item.cover} alt='' onClick={() => handleItemClick(item.id)} />
               <div className='overlay'>
@@ -87,9 +87,3 @@ export const ProductItems = ({ items, brandID }) => {
     </>
   );
 };
-
-// click img
-// new page
-// stock details in shop
-//colors displaying hex and name
-//tirar os BRs!!!

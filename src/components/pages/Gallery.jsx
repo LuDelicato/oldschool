@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import { images } from '../data/gallery';
+import { AiFillInstagram } from 'react-icons/ai';
 
 function Gallery() {
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState({});
 
   const handleImageClick = (image) => {
-    console.log('Clicked image:', image);
     setModalContent(image);
-    console.log('Modal content:', modalContent);
     setShowModal(true);
+  };
+
+  const handleCaptionClick = (event) => {
+    event.stopPropagation();
   };
 
   return (
@@ -21,9 +24,15 @@ function Gallery() {
         {images.map((image) => (
           <div key={image.id} className='gallery-item' onClick={() => handleImageClick(image)}>
             <img src={image.cover} alt={image.name} className='gallery-image' />
-            <div className='gallery-caption'>
+            <div className='gallery-caption' onClick={(event) => handleCaptionClick(event)}>
               <p className='gallery-name'>{image.name}</p>
-              <p className='gallery-author'>{image.author}</p>
+              <p className='gallery-author'>
+                Autor: {image.author}{' '}
+                <a className='iGicon' href={image.instagram} target='_blank' rel='noreferrer'>
+                  <AiFillInstagram />
+                </a>
+              </p>
+              <p className='gallery-price'>Preço: {image.price}</p>
             </div>
           </div>
         ))}

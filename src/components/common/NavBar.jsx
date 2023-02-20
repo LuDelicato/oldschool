@@ -8,7 +8,6 @@ import DarkModeBtn from './DarkModeBtn';
 export const NavBar = ({ darkMode }) => {
   const [mobile, setMobile] = useState(false);
   const [headerClass, setHeaderClass] = useState('');
-  const [logoSrc, setLogoSrc] = useState('oldschool_white.png');
 
   useEffect(() => {
     function handleScroll() {
@@ -28,7 +27,7 @@ export const NavBar = ({ darkMode }) => {
   return (
     <header className={`header ${headerClass}`}>
       <div className='container'>
-        <nav>
+        <nav className='navbar'>
           <div className='toggle'>
             <button onClick={() => setMobile(!mobile)}>
               {mobile ? <AiOutlineClose className='close heIcon' /> : <AiOutlineMenu className='open heIcon' />}

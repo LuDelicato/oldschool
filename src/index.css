@@ -184,15 +184,16 @@ a:hover {
 }
 
 body::after {
-  content: '';
   position: absolute;
   top: 84px;
   width: 100%;
   height: 100vh;
-  background-image: url('../public/images/bg_test2.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -255,6 +256,8 @@ body::after {
   padding: 20px;
   grid-gap: 30px;
   height: 250px;
+  background-size: cover;
+  background-image: url(/public/images/white_header.png);
 }
 
 .itemCards .card {
@@ -380,7 +383,7 @@ body::after {
 }
 
 .product {
-  background-image: url(/public/images/black-spray-paint.jpg);
+  background-image: url(/public/images/wt-spray-paint.png);
 }
 
 .product .container .heading h2,
@@ -544,8 +547,6 @@ body::after {
 }
 
 .contact-form {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -604,13 +605,13 @@ textarea {
 .iframe {
   align-items: center;
   margin: 0 auto;
-  margin-top: 50px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
   background-color: #f6f7f893;
   box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
   max-width: 500px;
+  height: fit-content;
 }
 
 @media (max-width: 768px) {
@@ -629,6 +630,7 @@ textarea {
   justify-content: space-between;
   max-width: 1000px;
   margin: 0 auto;
+  padding-top: 55px;
 }
 
 .gallery-item {
@@ -690,11 +692,25 @@ textarea {
   max-height: 90%;
 }
 
+.gallery-caption {
+  margin-top: 20px;
+}
+
+.gallery-caption a {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
 .h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 20vh;
+  padding-top: 150px;
+  background-size: cover;
+  background-image: url(/public/images/white_header.png);
 }
 
 .h1 h1 {
@@ -722,4 +738,30 @@ textarea {
   .gallery-item:hover img {
     transform: none;
   }
+}
+
+.footer {
+  bottom: 0;
+}
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.footer li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.footer a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }

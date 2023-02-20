@@ -9,6 +9,7 @@ import Shop from './components/pages/Shop';
 import About from './components/pages/About';
 import Contacts from './components/pages/Contacts';
 import Gallery from './components/pages/Gallery';
+import Footer from './components/pages/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='contatos' element={<Contacts />} />
         <Route path='galeria' element={<Gallery />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
