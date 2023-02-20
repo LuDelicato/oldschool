@@ -7,9 +7,8 @@ function Footer() {
       <ul>
         {social.map((item) => (
           <li key={item.id}>
-            <item.icon />
             <a href={item.url} className='links ' target='_blank' rel='noopener noreferrer'>
-              {item.name}
+              <item.icon />
             </a>
           </li>
         ))}
