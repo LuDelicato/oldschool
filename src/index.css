@@ -82,7 +82,7 @@ header .center ul li a {
 }
 
 header .right_user .heIcon {
-  margin: 0 15px;
+  margin: 0 0px;
 }
 
 a {
@@ -403,6 +403,9 @@ body::after {
 .right_user button {
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .right_user button:hover {
@@ -605,6 +608,8 @@ textarea {
 .iframe {
   align-items: center;
   margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;

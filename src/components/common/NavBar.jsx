@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { BsBagCheck } from 'react-icons/bs';
-import { AiOutlineClose, AiOutlineMenu, AiOutlineHeart } from 'react-icons/ai';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { navbar } from '../data/data';
 import DarkModeBtn from './DarkModeBtn';
+import { social } from '../data/socialmedia';
 
 export const NavBar = ({ darkMode }) => {
   const [mobile, setMobile] = useState(false);
@@ -53,13 +53,13 @@ export const NavBar = ({ darkMode }) => {
         <div className='right'>
           <div className='right_user'>
             <DarkModeBtn onToggle={handleDarkModeToggle} />
-            <AiOutlineHeart className='userIcon heIcon' />
-          </div>
-          <div className='right_user'>
-            <button className='button' type='button'>
-              <BsBagCheck className='shop heIcon' />
-              Carrinho (0)
-            </button>
+            {social.map((item) => (
+              <button key={item.id}>
+                <a href={item.url} className='links ' target='_blank' rel='noopener noreferrer'>
+                  <item.icon />
+                </a>
+              </button>
+            ))}
           </div>
         </div>
       </div>

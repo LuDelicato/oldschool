@@ -103,7 +103,3 @@ body.dark-mode::after {
 .dark-mode .iframe {
   background-color: #202020b7;
 }
-.dark-mode .footer {
-  background-image: url(/public/images/black_footer.png);
-  background-size: cover;
-}
