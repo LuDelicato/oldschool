@@ -47,4 +47,11 @@ export const services = [
     cover: 'images/services/pecas_institucionais.jpg',
     desc: 'Produção de peças artísticas institucionais',
   },
+
+  {
+    id: 8,
+    name: 'Quartos Personalizados',
+    cover: 'images/services/pintura.jpg',
+    desc: 'Pinturas temáticas para interiores',
+  },
 ];

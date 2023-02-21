@@ -59,6 +59,10 @@ header .right_search {
 header .toggle {
   display: none;
 }
+
+header .toggle button {
+  cursor: pointer;
+}
 header .left {
   padding: 10px 0 0 0;
 }
@@ -87,8 +91,6 @@ header .right_user .heIcon {
 
 a {
   text-decoration: none;
-  background: linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
-    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
   background-size: 100% 3px, 0 3px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -183,6 +185,10 @@ a:hover {
   padding: 0;
 }
 
+body {
+  background-image: url(/public/images/wt-spray-paint.png) !important;
+}
+
 body::after {
   position: absolute;
   top: 84px;
@@ -227,21 +233,28 @@ body::after {
     left: -50px;
     width: 400px;
     height: 100vh;
-    background: #f6f7f8;
+    background: #f6f7f8ee;
     color: #fff;
     border-radius: 0;
     padding: 0;
     padding: 100px 0;
     z-index: 99999;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   }
+
   header .center .mobile-nav li {
     transition: color 0.5s ease-in-out;
     margin-top: 25px;
   }
+
   header .center .mobile-nav li a {
     color: #202020;
     margin-bottom: 15px;
     font-size: 30px;
+  }
+
+  header .center .mobile-nav li a:hover {
+    color: #2011d7;
   }
 
   header li:hover {
@@ -551,6 +564,7 @@ body::after {
 
 .contact-form {
   justify-content: space-around;
+  margin-bottom: 25px;
 }
 
 .contact-form form {
@@ -639,9 +653,17 @@ textarea {
 }
 
 .gallery-item {
-  position: relative;
   width: 30%;
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-item .gallery-caption p {
+  margin: 0;
+  line-height: 1.2;
 }
 
 .gallery-item img {
@@ -649,6 +671,8 @@ textarea {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
   max-width: 100%;
+  border: 10px solid #ffffff4d;
+  border-radius: 50px;
 }
 
 .gallery-image {
@@ -699,6 +723,8 @@ textarea {
 
 .gallery-caption {
   margin-top: 20px;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 .gallery-caption a {
@@ -781,9 +807,17 @@ textarea {
 }
 
 .services-item {
-  position: relative;
   width: 30%;
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-item .services-caption p {
+  margin: 0;
+  line-height: 1.2;
 }
 
 .services-item img {
@@ -791,6 +825,8 @@ textarea {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
   max-width: 100%;
+  border: 10px solid #ffffff4d;
+  border-radius: 50px;
 }
 
 .services-image {
@@ -840,7 +876,8 @@ textarea {
 }
 
 .services-caption {
-  margin-top: 20px;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 .services-caption a {

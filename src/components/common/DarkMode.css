@@ -30,12 +30,22 @@ body.dark-mode::after {
 }
 
 .dark-mode header .center .mobile-nav {
-  background: #202020;
+  background: #202020e8;
   color: #202020;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode header .center .mobile-nav li a:hover {
+  color: #d61010;
 }
 
 .dark-mode header .center .mobile-nav li a {
   color: #f6f7f8;
+}
+
+.dark-mode header .center .mobile-nav li {
+  transition: color 0.5s ease-in-out;
+  margin-top: 25px;
 }
 
 .dark-mode a {
