@@ -54,11 +54,11 @@ export const NavBar = ({ darkMode }) => {
           <div className='right_user'>
             <DarkModeBtn onToggle={handleDarkModeToggle} />
             {social.map((item) => (
-              <button key={item.id}>
-                <a href={item.url} className='links ' target='_blank' rel='noopener noreferrer'>
+              <a href={item.url} key={item.id} className='links' target='_blank' rel='noopener noreferrer'>
+                <button>
                   <item.icon />
-                </a>
-              </button>
+                </button>
+              </a>
             ))}
           </div>
         </div>

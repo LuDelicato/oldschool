@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { services } from '../data/services';
+import { projects } from '../data/projects';
 
-function Services() {
+function Projects() {
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState({});
 
@@ -17,14 +17,13 @@ function Services() {
   return (
     <>
       <div className='h1'>
-        <h1>Serviços</h1>
+        <h1>Projetos</h1>
       </div>
       <div className='gallery-container'>
-        {services.map((item) => (
+        {projects.map((item) => (
           <div key={item.id} className='gallery-item' onClick={() => handleImageClick(item)}>
             <img src={item.cover} alt={item.name} className='gallery-image' />
             <div className='gallery-caption' onClick={(event) => handleCaptionClick(event)}>
-              <p className='gallery-name'>{item.name}</p>
               <p className='gallery-desc'>{item.desc}</p>
             </div>
           </div>
@@ -41,4 +40,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Projects;
