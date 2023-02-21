@@ -119,6 +119,11 @@ a:hover {
   font-size: 15px;
 }
 
+.hero label:first-of-type::after {
+  content: '\A';
+  white-space: pre;
+}
+
 .hero {
   width: 60%;
   height: auto;
@@ -140,7 +145,6 @@ a:hover {
 }
 
 .hero h1 span {
-  color: #2011d7;
   font-size: 40px;
 }
 

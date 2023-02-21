@@ -61,10 +61,6 @@ body.dark-mode::after {
   color: #f6f7f8;
 }
 
-.dark-mode .hero h1 span {
-  color: #d61010;
-}
-
 .dark-mode .hero .search {
   background: #b8b8b8;
   color: #f6f7f8;
