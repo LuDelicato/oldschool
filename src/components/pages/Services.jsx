@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { services } from '../data/services';
+import { services } from '../data/gallery';
 
 function Services() {
   const [showModal, setShowModal] = useState(false);

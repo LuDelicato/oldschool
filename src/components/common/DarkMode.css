@@ -109,3 +109,7 @@ body.dark-mode::after {
 .dark-mode .iframe {
   background-color: #202020b7;
 }
+
+.dark-mode .dropdown li {
+  background-color: #000000c0;
+}

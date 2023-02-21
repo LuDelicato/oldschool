@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { projects } from '../data/projects';
+import { projects } from '../data/gallery';
 
 function Projects() {
   const [showModal, setShowModal] = useState(false);

@@ -800,3 +800,41 @@ textarea {
 .footer a:hover {
   text-decoration: underline;
 }
+
+.navbar .center .menu li:hover .dropdown,
+.dropdown.show {
+  display: block;
+}
+
+.dropdown {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  display: none;
+  z-index: 1;
+  width: fit-content !important;
+}
+
+.dropdown li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #0e0e0e;
+  background-color: #f6f7f8c0;
+  border-radius: 50px;
+}
+
+.dropdown li:last-child {
+  border-bottom: none;
+}
+
+.navbar .center .menu li .dropdown {
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  width: 200px;
+  display: none;
+  z-index: 1;
+}
+
+.navbar .center .menu li:hover .dropdown {
+  display: block;
+}

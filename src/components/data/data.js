@@ -19,36 +19,19 @@ export const navbar = [
 
   {
     id: 4,
-    text: 'galeria',
+    text: 'galerias',
     path: '/galeria',
+    hasDropdown: true,
   },
 
   {
     id: 5,
-    text: 'serviços',
-    path: '/servicos',
-  },
-
-  {
-    id: 6,
-    text: 'projetos',
-    path: '/projetos',
-  },
-
-  {
-    id: 7,
-    text: 'portfolio',
-    path: '/portfolio',
-  },
-
-  {
-    id: 8,
     text: 'throwback',
     path: '/throwback',
   },
 
   {
-    id: 9,
+    id: 6,
     text: 'contatos',
     path: '/contatos',
   },

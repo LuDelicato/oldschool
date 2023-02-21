@@ -4,10 +4,12 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { navbar } from '../data/data';
 import DarkModeBtn from './DarkModeBtn';
 import { social } from '../data/socialmedia';
+import { dropdown } from '../data/dropdown';
 
 export const NavBar = ({ darkMode }) => {
   const [mobile, setMobile] = useState(false);
   const [headerClass, setHeaderClass] = useState('');
+  const [dropdownVisible, setDropdownVisible] = useState(false);
 
   useEffect(() => {
     function handleScroll() {
@@ -23,6 +25,12 @@ export const NavBar = ({ darkMode }) => {
   }, []);
 
   function handleDarkModeToggle() {}
+
+  function handleDropdown(nav) {
+    if (nav.hasDropdown) {
+      setDropdownVisible(!dropdownVisible);
+    }
+  }
 
   return (
     <header className={`header ${headerClass}`}>
@@ -42,8 +50,21 @@ export const NavBar = ({ darkMode }) => {
             <ul className={mobile ? 'mobile-nav' : 'menu'}>
               {navbar.map((nav) => (
                 <li key={nav.id}>
-                  <NavLink to={nav.path} className={({ isActive }) => (isActive ? 'active' : '')}>
+                  <NavLink
+                    to={nav.path}
+                    className={({ isActive }) => (isActive ? 'active' : '')}
+                    onClick={() => handleDropdown(nav)}
+                  >
                     {nav.text}
+                    {nav.hasDropdown && (
+                      <ul className={`dropdown ${dropdownVisible ? 'show' : ''}`}>
+                        {dropdown.map((item) => (
+                          <li key={item.id}>
+                            <NavLink to={item.path}>{item.text}</NavLink>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </NavLink>
                 </li>
               ))}
