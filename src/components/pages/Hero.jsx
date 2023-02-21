@@ -61,6 +61,11 @@ export const Hero = () => {
         <p>Exemplos: Hardcore, 94, Caps, Mute, Marcadores...</p>
       </div>
       {searchProducts && <ProductItems items={filteredProducts} />}
+
+      <a href='https://www.montanacolors.com/en/shops/retail-shops/' target='_blank' rel='noreferrer'>
+        {' '}
+        <img className='official_dealer' src='images/MTN_Dealer.avif' alt='' />
+      </a>
     </section>
   );
 };

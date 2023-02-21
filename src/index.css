@@ -227,6 +227,10 @@ a:hover {
   padding: 0;
 }
 
+.hero .official_dealer {
+  margin-bottom: 35px;
+}
+
 body {
   background-image: url(/public/images/wt-spray-paint.png) !important;
 }
