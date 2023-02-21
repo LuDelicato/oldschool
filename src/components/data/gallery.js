@@ -251,3 +251,103 @@ export const participation = [
     desc: 'Projeto Mar em VNG',
   },
 ];
+
+export const throwback = [
+  {
+    id: 1,
+    name: 'Né Barrako 27',
+    cover: 'images/throwback/ne.jpg',
+    desc: '',
+  },
+
+  {
+    id: 2,
+    name: 'Artistas que passaram pela Oldschool',
+    cover: 'images/throwback/artistas.jpg',
+    desc: '',
+  },
+
+  {
+    id: 3,
+    name: 'Artistas que passaram pela Oldschool',
+    cover: 'images/throwback/artistas2.jpg',
+    desc: '',
+  },
+
+  {
+    id: 4,
+    name: 'Artistas que passaram pela Oldschool',
+    cover: 'images/throwback/artistas3.jpg',
+    desc: '',
+  },
+
+  {
+    id: 5,
+    name: 'Artistas que passaram pela Oldschool',
+    cover: 'images/throwback/artistas4.jpg',
+    desc: '',
+  },
+
+  {
+    id: 6,
+    name: 'Artistas que passaram pela Oldschool',
+    cover: 'images/throwback/artistas5.jpg',
+    desc: '',
+  },
+
+  {
+    id: 7,
+    name: 'Artistas que passaram pela Oldschool',
+    cover: 'images/throwback/artistas6.jpg',
+    desc: '',
+  },
+
+  {
+    id: 8,
+    name: 'Artistas que passaram pela Oldschool',
+    cover: 'images/throwback/artistas7.jpg',
+    desc: '',
+  },
+
+  {
+    id: 9,
+    name: 'Artistas que passaram pela Oldschool',
+    cover: 'images/throwback/artistas8.jpg',
+    desc: '',
+  },
+
+  {
+    id: 10,
+    name: 'Artistas que passaram pela Oldschool',
+    cover: 'images/throwback/eventoMar.jpg',
+    desc: '',
+  },
+
+  {
+    id: 11,
+    name: 'Artistas que passaram pela Oldschool',
+    cover: 'images/throwback/artistas9.jpg',
+    desc: '',
+  },
+
+  {
+    id: 12,
+    name: 'Apoiadores da Oldschool',
+    cover: 'images/throwback/apoiadores.jpg',
+    desc: '',
+  },
+
+  {
+    id: 13,
+    name: 'Apoiadores da Oldschool',
+    cover: 'images/throwback/associacaopais.jpg',
+    desc: '',
+  },
+
+  {
+    id: 14,
+    name: 'Fornecedores Montana',
+    cover: 'images/throwback/fornecedores.jpg',
+    desc: '',
+  },
+];
