@@ -12,6 +12,7 @@ import Gallery from './components/pages/Gallery';
 import Footer from './components/pages/Footer';
 import Services from './components/pages/Services';
 import Projects from './components/pages/Projects';
+import Participation from './components/pages/Participation';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='galeria' element={<Gallery />} />
         <Route path='servicos' element={<Services />} />
         <Route path='projetos' element={<Projects />} />
+        <Route path='participacoes' element={<Participation />} />
       </Routes>
       <Footer />
     </BrowserRouter>

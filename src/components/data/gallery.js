@@ -152,11 +152,102 @@ export const services = [
   },
 ];
 
-export const portfolio = [
+export const participation = [
   {
     id: 1,
-    name: '',
-    cover: '',
-    desc: '',
+    name: 'Oldschool Beat Box League 2018',
+    cover: 'images/participacoes/bbox1.jpg',
+    desc: 'Campeonato Nacional de Beatbox no Porto',
+  },
+
+  {
+    id: 2,
+    name: 'Writers united in PARQ 2018',
+    cover: 'images/participacoes/aveiro.jpg',
+    desc: 'Festival Aveiro',
+  },
+
+  {
+    id: 3,
+    name: 'Oldschool Hip Hop Rimas 2023',
+    cover: 'images/participacoes/hiphop1.jpg',
+    desc: 'Evento de Rimas e hip hop battle',
+  },
+
+  {
+    id: 4,
+    name: 'Oldschool Hip Hop Rimas 2023',
+    cover: 'images/participacoes/hiphop2.jpg',
+    desc: 'Evento de Rimas e hip hop battle',
+  },
+
+  {
+    id: 5,
+    name: 'Oldschool Hip Hop Rimas 2023',
+    cover: 'images/participacoes/hiphop3.jpg',
+    desc: 'Evento de Rimas e hip hop battle',
+  },
+
+  {
+    id: 6,
+    name: 'Oldschool Hip Hop Rimas 2023',
+    cover: 'images/participacoes/hiphop4.jpg',
+    desc: 'Evento de Rimas e hip hop battle',
+  },
+
+  {
+    id: 7,
+    name: 'Oldschool Hip Hop Rimas 2023',
+    cover: 'images/participacoes/hiphop5.jpg',
+    desc: 'Evento de Rimas e hip hop battle',
+  },
+
+  {
+    id: 8,
+    name: 'Oldschool Hip Hop Rimas 2023',
+    cover: 'images/participacoes/hiphop6.jpg',
+    desc: 'Evento de Rimas e hip hop battle',
+  },
+
+  {
+    id: 9,
+    name: 'Oldschool Hip Hop Rimas 2023',
+    cover: 'images/participacoes/hiphop7.jpg',
+    desc: 'Evento de Rimas e hip hop battle',
+  },
+
+  {
+    id: 10,
+    name: 'Oldschool Hip Hop Rimas 2023',
+    cover: 'images/participacoes/hiphop8.jpg',
+    desc: 'Evento de Rimas e hip hop battle',
+  },
+
+  {
+    id: 11,
+    name: 'Oldschool Hip Hop Rimas 2023',
+    cover: 'images/participacoes/hiphop9.jpg',
+    desc: 'Evento de Rimas e hip hop battle',
+  },
+
+  {
+    id: 12,
+    name: 'Oldschool Hip Hop Rimas 2023',
+    cover: 'images/participacoes/hiphop10.jpg',
+    desc: 'Evento de Rimas e hip hop battle',
+  },
+
+  {
+    id: 13,
+    name: 'Oldschool Hip Hop Rimas 2023',
+    cover: 'images/participacoes/hiphop11.jpg',
+    desc: 'Evento de Rimas e hip hop battle',
+  },
+
+  {
+    id: 14,
+    name: 'Oldschool Projeto Mar',
+    cover: 'images/participacoes/mar1.jpg',
+    desc: 'Projeto Mar em VNG',
   },
 ];

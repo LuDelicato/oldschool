@@ -19,7 +19,7 @@ export const dropdown = [
 
   {
     id: 4,
-    text: 'portfolio',
-    path: '/portfolio',
+    text: 'participações',
+    path: '/participacoes',
   },
 ];
