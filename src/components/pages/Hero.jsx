@@ -16,11 +16,6 @@ export const Hero = () => {
     setSearchProducts(keyword);
   };
 
-  const handleClear = () => {
-    setSearchProducts('');
-    setFilteredProducts([]);
-  };
-
   const getRandomColor = useCallback(() => {
     let color = '';
     do {

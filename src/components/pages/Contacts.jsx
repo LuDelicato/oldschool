@@ -26,7 +26,7 @@ function Contacts() {
       <Iframe />
       <form onSubmit={handleSubmit}>
         <h1>Contata-nos!</h1>
-        <p>Aqui podes nos enviar uma mensagem.</p>
+        <p>Aqui podes enviar-nos uma mensagem.</p>
         <label htmlFor='firstName'>Primeiro Nome:</label>
         <input type='text' id='firstName' name='firstName' value={formData.firstName} onChange={handleChange} />
         <label htmlFor='lastName'>Último Nome:</label>

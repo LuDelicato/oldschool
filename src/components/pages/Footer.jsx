@@ -1,4 +1,5 @@
 import React from 'react';
+import Chatbot from '../common/Chatbot';
 import { social } from '../data/socialmedia';
 
 function Footer() {
@@ -13,6 +14,7 @@ function Footer() {
           </li>
         ))}
       </ul>
+      <Chatbot />
     </footer>
   );
 }
