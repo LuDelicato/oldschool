@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { navbar } from '../data/data';
@@ -10,6 +10,7 @@ export const NavBar = ({ darkMode }) => {
   const [mobile, setMobile] = useState(false);
   const [headerClass, setHeaderClass] = useState('');
   const [dropdownVisible, setDropdownVisible] = useState(false);
+  const useRefHook = useRef(null);
 
   useEffect(() => {
     function handleScroll() {
@@ -26,11 +27,23 @@ export const NavBar = ({ darkMode }) => {
 
   function handleDarkModeToggle() {}
 
-  function handleDropdown(nav) {
+  function handleDropdown(event, nav) {
     if (nav.hasDropdown) {
-      setDropdownVisible(!dropdownVisible);
+      event.preventDefault();
+      setDropdownVisible((prev) => (prev === nav.id ? null : nav.id));
     }
   }
+
+  function outsideClick(event) {
+    if (useRefHook.current && !useRefHook.current.contains(event.target)) {
+      setDropdownVisible(false);
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener('mousedown', outsideClick);
+    return () => document.removeEventListener('mousedown', outsideClick);
+  }, []);
 
   return (
     <header className={`header ${headerClass}`}>
@@ -50,14 +63,10 @@ export const NavBar = ({ darkMode }) => {
             <ul className={mobile ? 'mobile-nav' : 'menu'}>
               {navbar.map((nav) => (
                 <li key={nav.id}>
-                  <NavLink
-                    to={nav.path}
-                    className={({ isActive }) => (isActive ? 'active' : '')}
-                    onClick={() => handleDropdown(nav)}
-                  >
+                  <NavLink to={nav.path} onClick={(e) => handleDropdown(e, nav)}>
                     {nav.text}
-                    {nav.hasDropdown && (
-                      <ul className={`dropdown ${dropdownVisible ? 'show' : ''}`}>
+                    {nav.hasDropdown && nav.id === dropdownVisible && (
+                      <ul ref={useRefHook} className='dropdown show'>
                         {dropdown.map((item) => (
                           <li key={item.id}>
                             <NavLink to={item.path}>{item.text}</NavLink>

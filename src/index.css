@@ -17,7 +17,7 @@ p {
   text-align: justify;
 }
 
-input,
+header input,
 button,
 li {
   background: none;
@@ -93,7 +93,25 @@ header .right_user .heIcon {
   margin: 0 0px;
 }
 
-a {
+.dropdown {
+  z-index: 9999;
+  transform: translateX(-50%);
+  position: absolute;
+  top: 60px;
+}
+
+@media (max-width: 768px) {
+  .dropdown.show {
+    left: 200px;
+    position: relative;
+    margin: 0 -5px;
+    display: block;
+    top: 0px;
+    margin-top: -20px;
+  }
+}
+
+header a {
   text-decoration: none;
   background-size: 100% 3px, 0 3px;
   background-position: 100% 100%, 0 100%;
@@ -111,50 +129,9 @@ a {
   cursor: pointer;
 }
 
-a:hover {
+header a:hover {
   color: #2011d7;
   transition: 0.5s ease-in-out;
-}
-
-.navbar li:hover .dropdown {
-  display: block;
-  position: absolute;
-  top: 60px;
-
-  width: fit-content;
-  z-index: 9999 !important;
-}
-
-.dropdown li {
-  padding: 10px 20px;
-  border-bottom: 1px solid #0e0e0e;
-  background-color: #c4c4c4c0;
-}
-
-.navbar .center .menu li .dropdown {
-  position: absolute;
-  top: 55px;
-  left: 350px;
-  width: 200px;
-  display: none;
-  z-index: 9999;
-}
-
-.navbar .center .menu li:hover .dropdown {
-  display: block;
-}
-.dropdown {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 999;
-  display: none;
-}
-
-@media screen and (max-width: 768px) {
-  .navbar li:hover .dropdown {
-    display: none;
-  }
 }
 
 .hero p {
@@ -278,9 +255,7 @@ body::after {
     padding: 8px;
     z-index: 999999;
   }
-  header .center ul {
-    display: none;
-  }
+
   header .center .mobile-nav {
     display: block;
     content: '';

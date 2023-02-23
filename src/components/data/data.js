@@ -3,18 +3,21 @@ export const navbar = [
     id: 1,
     text: 'home',
     path: '/home',
+    hasDropdown: false,
   },
 
   {
     id: 2,
     text: 'sobre',
     path: '/sobre',
+    hasDropdown: false,
   },
 
   {
     id: 3,
     text: 'loja',
     path: '/loja',
+    hasDropdown: false,
   },
 
   {
@@ -28,12 +31,14 @@ export const navbar = [
     id: 5,
     text: 'throwback',
     path: '/throwback',
+    hasDropdown: false,
   },
 
   {
     id: 6,
     text: 'contatos',
     path: '/contatos',
+    hasDropdown: false,
   },
 ];
 
