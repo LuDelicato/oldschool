@@ -97,7 +97,7 @@ header .right_user .heIcon {
   z-index: 9999;
   transform: translateX(-50%);
   position: absolute;
-  top: 60px;
+  top: 65px;
 }
 
 @media (max-width: 768px) {
@@ -214,7 +214,7 @@ header a:hover {
 
 .hero .official_dealer {
   margin-bottom: 35px;
-  width: 200px;
+  width: 113px;
   height: auto;
 }
 
@@ -291,6 +291,20 @@ body::after {
   header li:hover {
     color: #2011d7;
   }
+
+  .right_user button {
+    display: none;
+  }
+
+  header .menu li {
+    display: none;
+  }
+
+  .container .search {
+    width: 100%;
+    margin-left: 0;
+    font-size: 50;
+  }
 }
 
 .itemCards {
@@ -316,11 +330,27 @@ body::after {
 
 .itemCards .card img {
   width: 60px;
-  margin-right: 15px;
+  margin-right: 35px;
 }
 
-.itemCards .card h4 {
-  margin-bottom: -30px;
+.itemCards .card .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: -26px;
+  margin-left: -16px;
+}
+
+.itemCards .card p {
+  margin-top: -48px;
+}
+
+.itemCards .card h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .itemCards .card p {
@@ -367,22 +397,6 @@ body::after {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.overlay {
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  transition: opacity 0.2s ease-in-out;
-  opacity: 0;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.box:hover .overlay {
-  opacity: 1;
-}
-
 .product_items button {
   background: #fff;
   border: none;
@@ -398,21 +412,6 @@ body::after {
 
 .itemCards button {
   cursor: pointer;
-}
-
-.overlay button {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.2s ease-in-out, transform 0.4s ease-in-out;
-}
-
-.overlay:hover button {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.img:hover .overlay {
-  opacity: 1;
 }
 
 .img:hover button {
@@ -469,6 +468,8 @@ body::after {
   position: relative;
   margin-top: 10px;
   width: 100%;
+  padding-left: 0;
+  margin-left: 4px;
 }
 
 .color-container {
@@ -513,7 +514,7 @@ body::after {
 .modal-content {
   display: flex;
   position: relative;
-  background: #f6f7f8;
+  background: #fffffff2;
   border-radius: 5px;
   padding: 20px;
   max-width: 100%;
@@ -523,16 +524,46 @@ body::after {
   box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
 }
 
+.modal-body .details {
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: -50px;
+}
+
+.details h1 {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: -25px;
+}
+
+.details h4 {
+  margin-top: -50px;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  margin-left: 0;
+  font-size: 1.2rem;
+}
+
 .modal .img {
   position: relative;
-  top: 30px;
+  top: 20px;
   background: none;
   border-radius: 0;
   box-shadow: none;
+  margin-top: -50px;
 }
 
 .modal .img:hover {
   background-image: none;
+}
+
+.modal h2 {
+  display: none;
 }
 
 .close {
@@ -543,25 +574,31 @@ body::after {
   color: #333;
   cursor: pointer;
   font-size: 50px;
+  z-index: 9999;
 }
 .details h4 {
   position: relative;
   z-index: 1;
   top: 30px;
 }
-
 .details p {
   position: relative;
   z-index: 1;
   top: 30px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.box .details p {
+  display: none;
+}
+
+.box .details h4 {
+  display: flex;
 }
 
 .right p {
   margin-top: 30%;
-}
-
-.modal-header {
-  font-size: 25px;
 }
 
 @media (max-width: 576px) {

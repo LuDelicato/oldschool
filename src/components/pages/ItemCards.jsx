@@ -10,7 +10,7 @@ function ItemCards({ setSelectedCategoryID }) {
             <img src={item.cover} alt='' />
           </div>
           <div className='right'>
-            <h4>{item.name}</h4>
+            <h1>{item.name}</h1>
             <p>{item.items} items</p>
           </div>
         </div>

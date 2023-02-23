@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { FiShoppingBag, FiSearch } from 'react-icons/fi';
 import { AiOutlineHeart } from 'react-icons/ai';
 import { colors } from '../data/colordata';
@@ -6,6 +6,7 @@ import { colors } from '../data/colordata';
 export const ProductItems = ({ items, brandID }) => {
   const [selectedItemId, setSelectedItemId] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const modalRef = useRef(null);
 
   const filteredItems = brandID ? items.filter((item) => item.brandID === brandID) : items;
 
@@ -19,6 +20,19 @@ export const ProductItems = ({ items, brandID }) => {
     setIsModalOpen(false);
   };
 
+  const outsideClick = (e) => {
+    if (modalRef.current && !modalRef.current.contains(e.target)) {
+      handleCloseModal();
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousedown', outsideClick);
+    return () => {
+      document.removeEventListener('mousedown', outsideClick);
+    };
+  }, []);
+
   return (
     <>
       <div className='product_items'>
@@ -26,28 +40,17 @@ export const ProductItems = ({ items, brandID }) => {
           <div className='box' key={item.id}>
             <div className='img'>
               <img src={item.cover} alt='' onClick={() => handleItemClick(item.id)} />
-              <div className='overlay'>
-                <button className='button'>
-                  <FiShoppingBag />
-                </button>
-                <button className='button'>
-                  <AiOutlineHeart />
-                </button>
-                <button className='button'>
-                  <FiSearch />
-                </button>
-              </div>
             </div>
             <div className='details '>
-              <h3>{item.title}</h3>
-              <h4>Preço: €{item.price}</h4>
+              <h1 className='names'>{item.title}</h1>
+              <p>Preço: €{item.price}</p>
               <p className='hidden'>Descrição: {item.desc}</p>
             </div>
           </div>
         ))}
       </div>
       {selectedItemId && isModalOpen && (
-        <div className='modal'>
+        <div className='modal' ref={modalRef}>
           <div className='modal-content'>
             <div className='modal-header'>
               <h2>{items.find((item) => item.id === selectedItemId)?.title}</h2>
