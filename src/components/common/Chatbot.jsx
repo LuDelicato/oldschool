@@ -6,6 +6,7 @@ function Chatbot() {
   const [chatHistory, setChatHistory] = useState([]);
   const [showWidget, setShowWidget] = useState(false);
   const messageRef = useRef(null);
+  const widgetRef = useRef(null);
 
   const promptClick = (answer) => {
     setChatHistory([...chatHistory, { question: answer.question }]);
@@ -24,6 +25,19 @@ function Chatbot() {
     }
   }, [chatHistory]);
 
+  function outsideClick(event) {
+    if (widgetRef.current && !widgetRef.current.contains(event.target)) {
+      setShowWidget(false);
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener('mousedown', outsideClick);
+    return () => {
+      document.removeEventListener('mousedown', outsideClick);
+    };
+  }, []);
+
   return (
     <div>
       <div className={`chatbot-icon ${showWidget ? 'hide' : ''}`} onClick={chatbotClick}>
@@ -35,7 +49,7 @@ function Chatbot() {
           </div>
         </div>
       </div>
-      <div className={`chatbot-widget ${showWidget ? 'show-chatbot-widget' : ''}`}>
+      <div ref={widgetRef} className={`chatbot-widget ${showWidget ? 'show-chatbot-widget' : ''}`}>
         <div className='chat-history'>
           {chatHistory.map((message, index) => (
             <div key={index} className='chat-message' ref={index === chatHistory.length - 1 ? messageRef : null}>

@@ -246,6 +246,13 @@ export const participation = [
 
   {
     id: 14,
+    name: 'Oldschool Hip Hop Rimas 2023',
+    cover: 'images/participacoes/hiphop12.jpg',
+    desc: 'Evento de Rimas e hip hop battle',
+  },
+
+  {
+    id: 15,
     name: 'Oldschool Projeto Mar',
     cover: 'images/participacoes/mar1.jpg',
     desc: 'Projeto Mar em VNG',
