@@ -36,6 +36,13 @@ export const navbar = [
 
   {
     id: 6,
+    text: 'tags',
+    path: '/tags',
+    hasDropdown: false,
+  },
+
+  {
+    id: 7,
     text: 'contatos',
     path: '/contatos',
     hasDropdown: false,

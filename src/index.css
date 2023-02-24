@@ -887,3 +887,76 @@ textarea {
 .footer a:hover {
   text-decoration: underline;
 }
+
+.canvas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+canvas {
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.line-picker-container {
+  display: flex;
+  align-items: center;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.color-picker-container label {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.color-picker-container button {
+  margin-top: 10px;
+}
+
+.canvasButton {
+  background-color: #c5c5c5;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 70px;
+}
+
+.canvasButton:hover {
+  background-color: #474747;
+}
+
+input[type='range'] {
+  width: 100%;
+  height: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  outline: none;
+  padding: 0;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .canvas-container {
+    max-width: 800px;
+  }
+}

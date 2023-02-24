@@ -1,12 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { FiShoppingBag, FiSearch } from 'react-icons/fi';
-import { AiOutlineHeart } from 'react-icons/ai';
 import { colors } from '../data/colordata';
 
 export const ProductItems = ({ items, brandID }) => {
-  const [selectedItemId, setSelectedItemId] = useState(null);
+  const [selectedItemId, setSelectedItemId] = useState();
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const modalRef = useRef(null);
+  const modalRef = useRef();
 
   const filteredItems = brandID ? items.filter((item) => item.brandID === brandID) : items;
 
@@ -16,7 +14,7 @@ export const ProductItems = ({ items, brandID }) => {
   };
 
   const handleCloseModal = () => {
-    setSelectedItemId(null);
+    setSelectedItemId();
     setIsModalOpen(false);
   };
 
