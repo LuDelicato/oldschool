@@ -27,10 +27,12 @@ export const NavBar = ({ darkMode }) => {
 
   function handleDarkModeToggle() {}
 
-  function handleDropdown(event, nav) {
+  function handleDropdown(nav) {
     if (nav.hasDropdown) {
-      event.preventDefault();
       setDropdownVisible((prev) => (prev === nav.id ? null : nav.id));
+    } else {
+      setMobile(false);
+      setDropdownVisible(false);
     }
   }
 
@@ -63,13 +65,21 @@ export const NavBar = ({ darkMode }) => {
             <ul className={mobile ? 'mobile-nav' : 'menu'}>
               {navbar.map((nav) => (
                 <li key={nav.id}>
-                  <NavLink to={nav.path} onClick={(e) => handleDropdown(e, nav)}>
+                  <NavLink to={nav.path} onClick={() => handleDropdown(nav)}>
                     {nav.text}
                     {nav.hasDropdown && nav.id === dropdownVisible && (
                       <ul ref={useRefHook} className='dropdown show'>
                         {dropdown.map((item) => (
                           <li key={item.id}>
-                            <NavLink to={item.path}>{item.text}</NavLink>
+                            <NavLink
+                              to={item.path}
+                              onClick={() => {
+                                setMobile(false);
+                                setDropdownVisible(false);
+                              }}
+                            >
+                              {item.text}
+                            </NavLink>
                           </li>
                         ))}
                       </ul>
@@ -82,7 +92,7 @@ export const NavBar = ({ darkMode }) => {
         </nav>
         <div className='right'>
           <div className='right_user'>
-            <DarkModeBtn onToggle={handleDarkModeToggle} />
+            <DarkModeBtn className='dark-mode-btn' onToggle={handleDarkModeToggle} />
             {social.map((item) => (
               <a href={item.url} key={item.id} className='links' target='_blank' rel='noopener noreferrer'>
                 <button>

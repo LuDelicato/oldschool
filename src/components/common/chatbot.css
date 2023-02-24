@@ -66,7 +66,7 @@
   padding: 10px;
 }
 
-.chat-message {
+.chat-message p {
   margin-bottom: 10px;
 }
 
@@ -90,6 +90,7 @@
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
+  font-size: 0.9rem;
 }
 
 .prompt-button:hover {
