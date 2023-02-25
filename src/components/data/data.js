@@ -23,7 +23,7 @@ export const navbar = [
   {
     id: 4,
     text: 'galerias',
-    path: '/galeria',
+    path: '/arte',
     hasDropdown: true,
   },
 

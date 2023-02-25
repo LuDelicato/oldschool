@@ -29,7 +29,7 @@ export const ProductItems = ({ items, brandID }) => {
     return () => {
       document.removeEventListener('mousedown', outsideClick);
     };
-  }, []);
+  });
 
   return (
     <>
@@ -40,7 +40,7 @@ export const ProductItems = ({ items, brandID }) => {
               <img src={item.cover} alt='' onClick={() => handleItemClick(item.id)} />
             </div>
             <div className='details '>
-              <h1 className='names'>{item.title}</h1>
+              <h1 className='hidden'>{item.title}</h1>
               <p>Preço: €{item.price}</p>
               <p className='hidden'>Descrição: {item.desc}</p>
             </div>

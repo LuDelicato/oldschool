@@ -2,7 +2,7 @@ export const dropdown = [
   {
     id: 1,
     text: 'arte',
-    path: '/galeria',
+    path: '/arte',
   },
 
   {
