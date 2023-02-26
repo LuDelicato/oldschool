@@ -11,17 +11,19 @@ function Iframe() {
         target='_blank'
         rel='noreferrer'
       >
-        <img src='/images/map.png' alt='' />
+        <img className='iframe-image' src='/images/map.png' alt='' />
       </a>
       <p>
-        <a href='tel:+351915933490'>
+        <span>
           <MdPhoneIphone />
-          +351 917 274 301
-        </a>
+          <span>+351 917 274 301</span>
+        </span>
       </p>
       <p>
-        <MdSchedule />
-        Segunda à Sabado das 13h00 - 18h00
+        <span>
+          <MdSchedule />
+          <span>Segunda à Sabado das 13h00 - 18h00</span>
+        </span>
       </p>
     </div>
   );
