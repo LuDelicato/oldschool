@@ -65,8 +65,10 @@ export const NavBar = ({ darkMode }) => {
             <ul className={mobile ? 'mobile-nav' : 'menu'}>
               {navbar.map((nav) => (
                 <li key={nav.id}>
-                  <NavLink to={nav.path} onClick={() => handleDropdown(nav)}>
-                    {nav.text}
+                  <div>
+                    <NavLink to={nav.path} onClick={() => handleDropdown(nav)}>
+                      {nav.text}
+                    </NavLink>
                     {nav.hasDropdown && nav.id === dropdownVisible && (
                       <ul ref={useRefHook} className='dropdown show'>
                         {dropdown.map((item) => (
@@ -84,7 +86,7 @@ export const NavBar = ({ darkMode }) => {
                         ))}
                       </ul>
                     )}
-                  </NavLink>
+                  </div>
                 </li>
               ))}
             </ul>
