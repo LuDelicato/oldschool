@@ -18,6 +18,10 @@ function Services() {
     <>
       <div className='h1'>
         <h1>Serviços</h1>
+        <p>Temos vários disponível para ti, desde:</p>
+        <p>
+          Restauros, Workshops, Entregas, Multimedia, Murais, Peças institucionais, e Quartos/paredes personalizadas.
+        </p>
       </div>
       <div className='gallery-container'>
         {services.map((item) => (

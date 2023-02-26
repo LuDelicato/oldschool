@@ -20,21 +20,18 @@ function Throwback() {
     <>
       <div className='h1'>
         <h1>Throwback</h1>
+        <p>Aqui encontras malta que passou pela nossa loja! Obrigada a todxs pelo apoio incondicional!</p>
       </div>
       <div className='video-container'>
         <div className='gallery-video'>
           <YouTube videoId={videoId} />
-          <p>Rapper Mundo Segundo, que realizou parte do seu video-clip na Oldschool!</p>
         </div>
       </div>
       <div className='gallery-container'>
         {throwback.map((item) => (
           <div key={item.id} className='gallery-item' onClick={() => handleImageClick(item)}>
             <img src={item.cover} alt={item.name} className='gallery-image' />
-            <div className='gallery-caption' onClick={(event) => handleCaptionClick(event)}>
-              <p className='gallery-name'>{item.name}</p>
-              <p className='gallery-desc'>{item.desc}</p>
-            </div>
+            <div className='gallery-caption' onClick={(event) => handleCaptionClick(event)}></div>
           </div>
         ))}
       </div>

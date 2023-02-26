@@ -18,6 +18,9 @@ function Participation() {
     <>
       <div className='h1'>
         <h1>Participações</h1>
+        <p>
+          A Oldschool tem parceria com várias entidades/pessoas. Aqui podes ver-nos em ação em algumas participações!
+        </p>
       </div>
       <div className='gallery-container'>
         {participation.map((item) => (
