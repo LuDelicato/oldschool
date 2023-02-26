@@ -19,6 +19,8 @@ function Contacts() {
 
   if (state.succeeded) {
     return <p>Obrigada pela tua mensagem, vamos responder o mais rápido possível!</p>;
+  } else {
+    <p>Desculpa, mas ocorreu um erro, tenta novamente.</p>;
   }
 
   return (

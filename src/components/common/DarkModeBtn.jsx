@@ -22,6 +22,16 @@ function DarkModeBtn(props) {
     } else {
       image.src = '/images/oldschool_black.png';
     }
+
+    const srcImage = document.getElementById('about');
+    if (!srcImage) {
+      return;
+    }
+    if (darkMode) {
+      srcImage.src = '/images/about_us_whiteMode.png';
+    } else {
+      srcImage.src = '/images/about_us_darkMode.png';
+    }
   }
 
   return (

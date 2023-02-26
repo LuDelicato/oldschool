@@ -62,8 +62,9 @@ body.dark-mode::after {
 }
 
 .dark-mode .hero .search {
-  background: #b8b8b8;
+  background: #555;
   color: #f6f7f8;
+  box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
 }
 
 .dark-mode .hero .search hr {

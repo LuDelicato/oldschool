@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function About() {
+  const [isDarkMode] = useState(false);
+
+  const img = isDarkMode ? '/images/about_us_darkMode.png' : '/images/about_us_whiteMode.png';
+
   return (
     <section className='about'>
       <div className='image'>
-        <img src='images/oldschool_about_us.png' alt='' />
+        <img id='about' src={img} alt='' />
       </div>
       <p>
         Bem-vindo à Oldschool, a loja de graffiti fundada por{' '}
