@@ -75,8 +75,8 @@ body.dark-mode::after {
   color: #202020;
 }
 
-.darkmode.dark-mode .active {
-  color: #d61010;
+.darkmode .active {
+  color: #d61710;
 }
 
 .dark-mode .product {
@@ -109,10 +109,6 @@ body.dark-mode::after {
 
 .dark-mode .iframe {
   background-color: #202020b7;
-}
-
-.dark-mode .dropdown li {
-  background-color: #000000c0;
 }
 
 .dark-mode .chatbot-widget {

@@ -37,19 +37,20 @@ header {
   box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
 }
 
-header.active {
+.header.active {
   content: '';
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
+  height: 10%;
   box-shadow: 0 0 4px 0 rgb(115 115 115 / 20%);
   z-index: 9999;
   background: rgba(255, 255, 255, 0.8);
+  width: 100%;
 }
 
 .active {
-  color: #2011d7;
+  color: #d61710;
 }
 
 header .container,
@@ -901,6 +902,33 @@ input[type='range'] {
 
   .h1 h1 {
     font-size: 2rem;
+  }
+
+  .h1 p {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero .search span {
+    display: none;
+  }
+
+  .hero .search hr {
+    display: none;
+  }
+
+  .gallery-item img {
+    max-width: 95%;
+  }
+  .dark-mode .h1 {
+    color: black;
+  }
+  .hero .search .heIcon {
+    display: none;
   }
 }
 
