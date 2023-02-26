@@ -21,23 +21,19 @@ function About() {
         <img id='about' src={isDarkMode ? '/images/about_us_darkMode.png' : '/images/about_us_whiteMode.png'} alt='' />
       </div>
       <p>
-        Bem-vindo à Oldschool, a loja de graffiti fundada por{' '}
-        <a href='https://www.instagram.com/monicadelicato/' target='_blank' rel='noreferrer'>
-          Mônica Delicato
-        </a>{' '}
-        há seis anos. Desde então, a nossa loja tem sido um ponto de encontro para artistas e entusiastas de arte
-        urbana. Aqui, não só vendemos produtos de alta qualidade, como as latas de spray da marca Montana, mas também
-        nos dedicamos a projetos e trabalhos para pessoas de todas as idades e origens.
+        Bem-vindo à Oldschool, a loja de graffiti inaugurada há sete anos. Desde então, a loja tem sido um ponto de
+        encontro para artistas e entusiastas de arte urbana. O espaço oferece produtos de alta qualidade, como sprays de
+        marcas como a Montana, e também nos dedica-se a projetos e trabalhos para um público variado.
       </p>
       <p>
-        Acreditamos que a arte tem o poder de transformar e unir comunidades. Por isso, participamos ativamente em
-        projetos educativos e artísticos, e iniciativas como Campeonatos de Beat Box, assim como o Projeto Mar em Vila
-        Nova de Gaia. Também colaboramos com escolas e projetos particulares, levando a nossa paixão pela arte urbana a
-        todos os cantos da cidade.
+        O projeto Oldschool acredita que a arte tem o poder de transformar e unir comunidades. Neste sentido, participa
+        ativamente em projetos educativos e artísticos, e iniciativas como Campeonatos de Beat Box, PARQ, e Projeto MAR.
+        Também desenvolve projetos para o setor público e privado, levando a nossa paixão pela arte urbana a todos os
+        cantos de Portugal.
       </p>
       <p>
-        Na Oldschool, queremos que todos se sintam em casa. A nossa loja é um espaço jovem e descontraído, onde a arte,
-        as cores e a boa disposição são o nosso lema. Aqui, encontrarás um ambiente acolhedor e inspirador, onde podes
+        Na Oldschool, trabalhamos para que todos se sintam em casa. A loja é um espaço jovem e descontraído, onde a
+        arte, as cores e a boa disposição são o nosso lema. Encontrarás um ambiente acolhedor e inspirador, onde podes
         explorar a tua criatividade e partilhar as tuas ideias com outros artistas.
       </p>
       <p>

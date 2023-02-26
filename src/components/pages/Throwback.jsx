@@ -5,7 +5,7 @@ import YouTube from 'react-youtube';
 function Throwback() {
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState({});
-  const [videoId, setVideoId] = useState('pV9GkEnG8kw');
+  const [videoId] = useState('pV9GkEnG8kw');
 
   const handleImageClick = (image) => {
     setModalContent(image);
