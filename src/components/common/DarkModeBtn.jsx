@@ -3,7 +3,10 @@ import { VscColorMode } from 'react-icons/vsc';
 import './DarkMode.css';
 
 function DarkModeBtn(props) {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    const keepTheme = localStorage.getItem('darkMode');
+    return keepTheme ? JSON.parse(keepTheme) : false;
+  });
 
   useEffect(() => {
     const body = document.body;
@@ -12,6 +15,7 @@ function DarkModeBtn(props) {
     } else {
       body.classList.remove('dark-mode');
     }
+    localStorage.setItem('darkMode', JSON.stringify(darkMode));
   }, [darkMode]);
 
   function toggleDarkMode() {

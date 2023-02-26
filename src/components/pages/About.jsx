@@ -1,14 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function About() {
-  const [isDarkMode] = useState(false);
+  const [isDarkMode] = useState(() => {
+    const keepTheme = localStorage.getItem('darkMode');
+    return keepTheme === 'true' ? true : false;
+  });
 
-  const img = isDarkMode ? '/images/about_us_darkMode.png' : '/images/about_us_whiteMode.png';
+  useEffect(() => {
+    const img = isDarkMode ? '/images/about_us_darkMode.png' : '/images/about_us_whiteMode.png';
+    const imgElement = document.getElementById('about');
+    if (imgElement) {
+      imgElement.src = img;
+    }
+    localStorage.setItem('darkMode', isDarkMode.toString());
+  }, [isDarkMode]);
 
   return (
     <section className='about'>
       <div className='image'>
-        <img id='about' src={img} alt='' />
+        <img id='about' src={isDarkMode ? '/images/about_us_darkMode.png' : '/images/about_us_whiteMode.png'} alt='' />
       </div>
       <p>
         Bem-vindo à Oldschool, a loja de graffiti fundada por{' '}

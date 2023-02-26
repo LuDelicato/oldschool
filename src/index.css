@@ -525,6 +525,11 @@ body::after {
   margin-bottom: 25px;
 }
 
+.about a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .contact-form {
   justify-content: space-around;
   margin-bottom: 25px;
