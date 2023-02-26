@@ -768,6 +768,7 @@ footer .links {
 canvas {
   border: 1px solid #000;
   background-color: #fff;
+  cursor: url('/public/cursor.cur'), auto;
 }
 
 .line-picker-container {

@@ -45,6 +45,9 @@ const Canvas = () => {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight - 300;
 
+    ctx.lineJoin = 'round';
+    ctx.lineCap = 'round';
+
     canvas.addEventListener('touchstart', (event) => {
       const canvasX = event.touches[0].pageX - canvas.offsetLeft;
       const canvasY = event.touches[0].pageY - canvas.offsetTop;
@@ -138,8 +141,8 @@ const Canvas = () => {
             <input
               type='range'
               name='linePicker'
-              min='1'
-              max='20'
+              min='10'
+              max='30'
               value={lineWidth}
               step='2'
               onChange={(e) => {
