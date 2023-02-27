@@ -1,11 +1,7 @@
 body {
   background: #f6f7f8;
   font-family: 'Poppins', sans-serif;
-}
-
-html,
-body {
-  overflow-x: hidden;
+  background-image: url(/public/images/wt-spray-paint.png);
 }
 
 html {
