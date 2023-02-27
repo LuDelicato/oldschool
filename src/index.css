@@ -622,8 +622,8 @@ textarea {
 }
 
 .gallery-video {
-  max-width: 100%;
-  height: auto;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.603) 0px 0px 10px;
 }
 
 .gallery-video p {

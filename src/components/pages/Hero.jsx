@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { BiSearch } from 'react-icons/bi';
 import { products } from '../data/data';
 import { ProductItems } from './ProductsItems';
@@ -8,6 +8,7 @@ export const Hero = () => {
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [color1, setColor1] = useState('#000000');
   const [color2, setColor2] = useState('#000000');
+  const inputRef = useRef();
 
   const handleSearch = (event) => {
     const keyword = event.target.value.toLowerCase();
@@ -23,6 +24,10 @@ export const Hero = () => {
     } while (color === '#FFFFFF' || color === '#000000' || color === color1 || color === color2);
     return color;
   }, [color1, color2]);
+
+  useEffect(() => {
+    inputRef.current.focus();
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -46,9 +51,9 @@ export const Hero = () => {
         </h1>
         <p>Produtos de qualidade, variedade de cores e marcas. Venha conferir, e sinta-se em casa!</p>
         <div className='search'>
-          <span>Todas as Categorias</span>
+          <span>Todas os Produtos</span>
           <hr />
-          <input type='text' placeholder='Pesquisa de Produtos...' value={searchProducts} onChange={handleSearch} />
+          <input type='text' placeholder='Pesquisa' value={searchProducts} onChange={handleSearch} ref={inputRef} />
           <button>
             <BiSearch className='searchIcon heIcon' />
           </button>
@@ -58,7 +63,6 @@ export const Hero = () => {
       {searchProducts && <ProductItems items={filteredProducts} />}
 
       <a href='https://www.montanacolors.com/en/shops/retail-shops/' target='_blank' rel='noreferrer'>
-        {' '}
         <img className='official_dealer' src='images/MTN_Dealer.avif' alt='' />
       </a>
     </section>

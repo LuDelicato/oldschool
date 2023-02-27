@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Iframe from './Iframe';
 
 function Contacts() {
+  const [state, handleSubmit] = useForm('mlekbegj');
+  const inputRef = useRef();
+
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -11,11 +14,13 @@ function Contacts() {
     message: '',
   });
 
+  useEffect(() => {
+    inputRef.current.focus();
+  }, []);
+
   const handleChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
   };
-
-  const [state, handleSubmit] = useForm('mlekbegj');
 
   if (state.succeeded) {
     return <p>Obrigada pela tua mensagem, vamos responder o mais rápido possível!</p>;
@@ -29,7 +34,9 @@ function Contacts() {
       <form onSubmit={handleSubmit}>
         <h1>Contata-nos!</h1>
         <p>Aqui podes enviar-nos uma mensagem.</p>
-        <label htmlFor='firstName'>Primeiro Nome:</label>
+        <label htmlFor='firstName' ref={inputRef}>
+          Primeiro Nome:
+        </label>
         <input type='text' id='firstName' name='firstName' value={formData.firstName} onChange={handleChange} />
         <label htmlFor='lastName'>Último Nome:</label>
         <input type='text' id='lastName' name='lastName' value={formData.lastName} onChange={handleChange} />
