@@ -123,3 +123,7 @@ body.dark-mode::after {
 .dark-mode .chat-message p {
   color: #fff;
 }
+
+.dark-mode .itemCards .card {
+  background: rgba(133, 133, 133, 0.8);
+}

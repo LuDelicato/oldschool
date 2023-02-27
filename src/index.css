@@ -304,11 +304,12 @@ header a:hover {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  text-align: center;
 }
 
 .img {
   position: relative;
-  display: block;
+  display: inline-block;
   background: rgba(219, 218, 218, 0.226);
   border-radius: 5%;
   max-width: 100%;
