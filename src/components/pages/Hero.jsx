@@ -53,7 +53,7 @@ export const Hero = () => {
         <div className='search'>
           <span>Todas os Produtos</span>
           <hr />
-          <input type='text' placeholder='Pesquisa' value={searchProducts} onChange={handleSearch} ref={inputRef} />
+          <input type='search' placeholder='Pesquisa' value={searchProducts} onChange={handleSearch} ref={inputRef} />
           <button>
             <BiSearch className='searchIcon heIcon' />
           </button>
